@@ -205,7 +205,7 @@ h3 {
 .section-bed {
 	position: relative;
 	height: 717px;
-	background-image: url(../resources/bed.jpg);
+	background-image: url(/resources/bed.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 50%;
@@ -247,7 +247,7 @@ h3 {
 	left: -4px;
 	content: '';
 	display: block;
-	background-image: url(../resources/phone.png);
+	background-image: url(/resources/phone.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 50%;
