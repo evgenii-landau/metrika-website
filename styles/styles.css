@@ -1,3 +1,7 @@
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	font-family: 'Manrope', sans-serif;
 	width: 100%;
@@ -7,17 +11,61 @@ body {
 .container {
 	margin: 0 auto;
 	width: 1440px;
-	height: 7211px;
 	background-color: #ffffff;
 }
 
-.inner-container {
+.welcome {
+	padding-bottom: 150px;
 	width: 1150px;
 	margin: 0 auto;
 }
 
+.nav-container {
+	width: 1150px;
+	margin: 0 auto;
+	padding-top: 33px;
+}
+
+.logo-link {
+	display: inline-block;
+	margin-right: 558px;
+}
+
+.logo {
+	display: block;
+	width: 127px;
+}
+
+.nav {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.nav-link {
+	margin-right: 56px;
+	display: inline-block;
+	text-align: center;
+	letter-spacing: -0.54px;
+	font-size: 18px;
+	text-decoration: none;
+	color: #121212;
+}
+
+.nav-link:last-child {
+	margin-right: 0;
+}
+
+.nav-link:first-child {
+	opacity: 0.5;
+	text-decoration: underline;
+}
+
+.nav-link:hover {
+	color: lightsalmon;
+}
+
 h1 {
-	padding-top: 128px;
+	padding-top: 74px;
 	width: 956px;
 	font-size: 60px;
 	line-height: 60px;
@@ -40,16 +88,19 @@ h1 {
 	letter-spacing: -0.6px;
 }
 
-h2 {
-	margin-top: 150px;
-	margin-bottom: 30px;
+.about-us {
+	padding-bottom: 150px;
+	width: 1150px;
+	margin: 0 auto;
+}
 
+h2 {
 	font-size: 18px;
 	letter-spacing: -0.54px;
 	color: #121212;
 }
 
-p {
+.text-about-us {
 	margin-top: 30px;
 	width: 1048px;
 	font-size: 45px;
@@ -72,10 +123,16 @@ p {
 
 .anchor-see-services:hover {
 	color: #ad1818;
-	background-color: bisque;
+	background-color: #ffffff;
+}
+
+.projects {
+	width: 1150px;
+	margin: 0 auto;
 }
 
 .item {
+	margin-top: 30px;
 	box-sizing: border-box;
 	margin-bottom: 90px;
 
@@ -144,3 +201,116 @@ h3 {
 .item-2:nth-last-child(1) {
 	padding-bottom: 150px;
 }
+
+.section-bed {
+	position: relative;
+	height: 717px;
+	background-image: url(/resources/bed.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50%;
+}
+
+.text-project {
+	position: absolute;
+	left: 125px;
+	bottom: 60px;
+	width: 443px;
+	height: 82px;
+	color: #fff;
+	font-size: 30px;
+	letter-spacing: -0.9px;
+	line-height: 41px;
+}
+
+.section-contacts {
+	width: 1150px;
+	margin: 0 auto;
+	padding-bottom: 150px;
+	padding-top: 150px;
+}
+
+.h4 {
+	font-size: 18px;
+	letter-spacing: -0.54px;
+	color: #121212;
+}
+
+.contacts {
+	position: relative;
+}
+
+.contacts:before {
+	width: 24px;
+	height: 24px;
+	bottom: 220px;
+	left: -4px;
+	content: '';
+	display: block;
+	background-image: url(/resources/phone.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50%;
+	position: absolute;
+}
+
+.number {
+	margin-top: 32px;
+	font-size: 60px;
+	line-height: 60px;
+	letter-spacing: -1.8px;
+	color: #121212;
+}
+
+.mail {
+	margin-top: 30px;
+	font-size: 60px;
+	line-height: 60px;
+	letter-spacing: -1.8px;
+	opacity: 0.5;
+	color: #121212;
+}
+
+/* .nav-section {
+	min-width: 850px;
+	background-color: rgb(34, 34, 35, 0.8);
+}
+
+.nav-container {
+	margin: 0 auto;
+	width: 800px;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 20px;
+}
+
+.logo-link {
+	margin-right: 98px;
+	display: inline-block;
+}
+
+.logo {
+	display: block;
+	width: 40px;
+	height: 40px;
+}
+
+.nav {
+	margin-top: 2px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.nav-link {
+	margin-right: 40px;
+	display: inline-block;
+	width: 135px;
+	height: 37px;
+	line-height: 37px;
+	text-align: center;
+
+	font-size: 16px;
+	color: antiquewhite;
+	text-decoration: none;
+} */
