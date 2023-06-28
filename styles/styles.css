@@ -132,16 +132,19 @@ h2 {
 
 .item {
 	margin-top: 30px;
+	padding-top: 3px;
 	box-sizing: border-box;
 	margin-bottom: 90px;
-
 	width: 1150px;
 }
 
-.img-project-wrapper {
+.h3-wrapper {
+	margin-top: -3px;
 }
 
-.h3-wrapper {
+.link-wrapper {
+	padding-top: 13px;
+	padding-left: 2px;
 }
 
 h3 {
