@@ -170,6 +170,7 @@ h3 {
 }
 
 .see-projects-wrapper {
+	padding-top: 4px;
 }
 
 .anchor-see-projects {
@@ -190,8 +191,7 @@ h3 {
 }
 
 .services-wrapper {
-	padding-left: 110px;
-	padding-bottom: 34px;
+	padding-bottom: 38px;
 }
 
 .section-black {
@@ -202,12 +202,12 @@ h3 {
 
 .item-2 {
 	width: 1150px;
-	padding-bottom: 60px;
+	padding-bottom: 64px;
 	margin: 0 auto;
 }
 
 h4 {
-	margin-top: 15px;
+	margin-top: 20px;
 	margin-left: 4px;
 	color: #fff;
 	font-size: 30px;
@@ -229,13 +229,13 @@ h4 {
 
 .text-project {
 	position: absolute;
-	left: 423px;
+	left: 421px;
 	bottom: 62px;
 	width: 443px;
 	height: 82px;
 	color: #fff;
 	font-size: 30px;
-	letter-spacing: -0.9px;
+	letter-spacing: -1px;
 	line-height: 41px;
 }
 
@@ -297,7 +297,7 @@ h4 {
 }
 
 .headlines-wrapper {
-	padding-top: 6px;
+	padding-top: 15px;
 	margin: 0 auto;
 	width: 455px;
 }
