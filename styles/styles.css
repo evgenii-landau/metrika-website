@@ -61,7 +61,7 @@ body {
 }
 
 h1 {
-	padding-top: 53px;
+	padding-top: 56px;
 	width: 956px;
 	font-size: 60px;
 	line-height: 60px;
@@ -98,24 +98,24 @@ h2 {
 }
 
 .text-about-us {
-	margin-top: 35px;
+	margin-top: 33px;
 	width: 1048px;
 	font-size: 45px;
-	letter-spacing: -1.35px;
+	letter-spacing: -1.3px;
 	line-height: 61px;
 	color: #121212;
 }
 
 .anchor-see-services {
 	font-size: 20px;
-	margin-top: 29px;
+	margin-top: 30px;
 	display: inline-block;
 	padding: 23px 40px;
 	background-color: #ad1818;
 	color: #ffffff;
-	letter-spacing: -0.6px;
 	border-radius: 5px;
 	text-decoration: none;
+	letter-spacing: -0.6px;
 }
 
 .anchor-see-services:hover {
