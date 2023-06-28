@@ -55,13 +55,9 @@ body {
 	margin-right: 0;
 }
 
-.nav-link:first-child {
-	opacity: 0.5;
-	text-decoration: underline;
-}
-
 .nav-link:hover {
 	color: lightsalmon;
+	text-decoration: underline;
 }
 
 h1 {
@@ -122,11 +118,12 @@ h2 {
 }
 
 .anchor-see-services:hover {
-	color: #ad1818;
-	background-color: #ffffff;
+	color: #fff;
+	background-color: lightsalmon;
 }
 
 .projects {
+	padding-bottom: 150px;
 	width: 1150px;
 	margin: 0 auto;
 }
@@ -165,23 +162,14 @@ h2 {
 }
 
 .anchor-see-projects:hover {
-	color: #ffffff;
-	background-color: #ad1818;
+	color: #fff;
+	background-color: lightsalmon;
 }
 
 .section-black {
-	margin-top: 150px;
+	padding-top: 150px;
 
 	background-color: #121212;
-}
-
-h3 {
-	padding-top: 151px;
-	padding-left: 150px;
-
-	font-size: 18px;
-	letter-spacing: -0.54px;
-	color: #ffffff;
 }
 
 .item-2 {
@@ -227,13 +215,7 @@ h3 {
 	width: 1150px;
 	margin: 0 auto;
 	padding-bottom: 150px;
-	padding-top: 150px;
-}
-
-.h4 {
-	font-size: 18px;
-	letter-spacing: -0.54px;
-	color: #121212;
+	padding-top: 186px;
 }
 
 .contacts {
@@ -254,8 +236,14 @@ h3 {
 	position: absolute;
 }
 
-.number {
+.mail-wrapper {
 	margin-top: 32px;
+}
+
+.number {
+	display: block;
+	margin-top: 32px;
+	text-decoration: none;
 	font-size: 60px;
 	line-height: 60px;
 	letter-spacing: -1.8px;
@@ -263,6 +251,7 @@ h3 {
 }
 
 .mail {
+	display: block;
 	margin-top: 30px;
 	font-size: 60px;
 	line-height: 60px;
@@ -271,46 +260,35 @@ h3 {
 	color: #121212;
 }
 
-/* .nav-section {
-	min-width: 850px;
-	background-color: rgb(34, 34, 35, 0.8);
+.section-end-of-page {
+	background-color: #121212;
+	padding-top: 60px;
+	padding-bottom: 30px;
 }
 
-.nav-container {
+.headlines-wrapper {
+	width: 455px;
 	margin: 0 auto;
-	width: 800px;
-	padding-left: 20px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-right: 20px;
 }
 
-.logo-link {
-	margin-right: 98px;
+.headlines-in-the-end {
+	margin-right: 54px;
 	display: inline-block;
+	font-size: 18px;
+	letter-spacing: -0.54px;
+	text-transform: uppercase;
+	color: #ffffff;
 }
 
-.logo {
-	display: block;
-	width: 40px;
-	height: 40px;
+.headlines-in-the-end:last-child {
+	margin-right: 0px;
 }
 
-.nav {
-	margin-top: 2px;
-	display: inline-block;
-	vertical-align: top;
-}
-
-.nav-link {
-	margin-right: 40px;
-	display: inline-block;
-	width: 135px;
-	height: 37px;
-	line-height: 37px;
+.text-in-the-end {
+	margin-top: 87px;
 	text-align: center;
-
-	font-size: 16px;
-	color: antiquewhite;
-	text-decoration: none;
-} */
+	font-size: 20px;
+	letter-spacing: -0.6px;
+	color: #fff;
+	opacity: 0.5;
+}
