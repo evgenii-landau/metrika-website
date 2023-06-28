@@ -22,12 +22,13 @@ body {
 .nav-container {
 	width: 1150px;
 	margin: 0 auto;
-	padding-top: 33px;
+	padding-top: 35px;
+	padding-left: 1px;
 }
 
 .logo-link {
 	display: inline-block;
-	margin-right: 558px;
+	margin-right: 555px;
 }
 
 .logo {
@@ -60,7 +61,7 @@ body {
 }
 
 h1 {
-	padding-top: 74px;
+	padding-top: 53px;
 	width: 956px;
 	font-size: 60px;
 	line-height: 60px;
@@ -76,7 +77,8 @@ h1 {
 .text-in-img-wrapper {
 	position: absolute;
 	left: 40px;
-	bottom: 40px;
+	bottom: 43px;
+	line-height: 27px;
 	width: 430px;
 	color: #fff;
 	font-size: 20px;
@@ -96,22 +98,22 @@ h2 {
 }
 
 .text-about-us {
-	margin-top: 30px;
+	margin-top: 35px;
 	width: 1048px;
 	font-size: 45px;
 	letter-spacing: -1.35px;
-	line-height: 65px;
-
+	line-height: 61px;
 	color: #121212;
 }
 
 .anchor-see-services {
 	font-size: 20px;
-	margin-top: 30px;
+	margin-top: 29px;
 	display: inline-block;
-	padding: 20px 40px;
+	padding: 23px 40px;
 	background-color: #ad1818;
 	color: #ffffff;
+	letter-spacing: -0.6px;
 	border-radius: 5px;
 	text-decoration: none;
 }
@@ -125,6 +127,7 @@ h2 {
 	padding-bottom: 150px;
 	width: 1150px;
 	margin: 0 auto;
+	padding-top: 5px;
 }
 
 .item {
@@ -135,8 +138,14 @@ h2 {
 	width: 1150px;
 }
 
+.img-project-wrapper {
+}
+
+.h3-wrapper {
+}
+
 h3 {
-	margin-top: 15px;
+	margin-top: 21px;
 	margin-bottom: 15px;
 	font-size: 30px;
 	letter-spacing: -0.9px;
