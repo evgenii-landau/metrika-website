@@ -8,6 +8,7 @@ body {
 }
 
 .welcome {
+	padding-top: 16px;
 	width: 1150px;
 	margin: 0 auto;
 }
@@ -73,7 +74,7 @@ h1 {
 .text-in-img-wrapper {
 	position: absolute;
 	left: 40px;
-	bottom: 44px;
+	bottom: 42px;
 	line-height: 27px;
 	width: 430px;
 	color: #fff;
@@ -98,7 +99,7 @@ h2 {
 }
 
 .text-about-us-wrapper {
-	margin-top: 30px;
+	margin-top: 36px;
 }
 
 .text-about-us {
@@ -130,6 +131,7 @@ h2 {
 }
 
 .projects-wrapper {
+	margin-top: 4px;
 	margin-bottom: 30px;
 }
 
@@ -140,16 +142,18 @@ h2 {
 }
 
 .item {
+	padding-top: 4px;
 	margin-bottom: 90px;
 	width: 1150px;
 }
 
 .h3-wrapper {
-	margin-top: 15px;
+	margin-top: 17px;
 	margin-bottom: 15px;
 }
 
 .link-wrapper {
+	padding-top: 10px;
 }
 
 h3 {
