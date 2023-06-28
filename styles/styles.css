@@ -193,7 +193,7 @@ h2 {
 .section-bed {
 	position: relative;
 	height: 717px;
-	background-image: url(/resources/bed.jpg);
+	background-image: url("../resources/bed.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 50%;
@@ -229,7 +229,7 @@ h2 {
 	left: -4px;
 	content: '';
 	display: block;
-	background-image: url(/resources/phone.png);
+	background-image: url("../resources/phone.png");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 50%;
@@ -259,6 +259,7 @@ h2 {
 	opacity: 0.5;
 	color: #121212;
 }
+<<<<<<< HEAD
 
 .section-end-of-page {
 	background-color: #121212;
@@ -292,3 +293,5 @@ h2 {
 	color: #fff;
 	opacity: 0.5;
 }
+=======
+>>>>>>> f5915c49d7bb91eec5cc102a09dc9685ae5b3557
