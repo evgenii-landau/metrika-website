@@ -61,7 +61,7 @@ body {
 }
 
 h1 {
-	padding-top: 56px;
+	padding-top: 54px;
 	width: 956px;
 	font-size: 60px;
 	line-height: 60px;
@@ -77,7 +77,7 @@ h1 {
 .text-in-img-wrapper {
 	position: absolute;
 	left: 40px;
-	bottom: 43px;
+	bottom: 44px;
 	line-height: 27px;
 	width: 430px;
 	color: #fff;
@@ -93,6 +93,7 @@ h1 {
 
 h2 {
 	font-size: 18px;
+	margin-bottom: 34px;
 	letter-spacing: -0.54px;
 	color: #121212;
 }
@@ -123,6 +124,9 @@ h2 {
 	background-color: lightsalmon;
 }
 
+.projects-wrapper {
+}
+
 .projects {
 	padding-bottom: 150px;
 	width: 1150px;
@@ -143,8 +147,7 @@ h2 {
 }
 
 .link-wrapper {
-	padding-top: 13px;
-	padding-left: 2px;
+	padding-top: 10px;
 }
 
 h3 {
@@ -162,15 +165,20 @@ h3 {
 	color: #ad1818;
 }
 
+.see-projects-wrapper {
+	padding-top: 4px;
+}
+
 .anchor-see-projects {
 	text-decoration: none;
 	display: block;
 	text-align: center;
-	padding: 56px;
+	padding: 59px;
 	font-size: 30px;
 	color: #ad1818;
 	border: 2px solid #ad1818;
 	border-radius: 5px;
+	letter-spacing: -0.9px;
 }
 
 .anchor-see-projects:hover {
@@ -178,14 +186,16 @@ h3 {
 	background-color: lightsalmon;
 }
 
+.services-wrapper {
+}
+
 .section-black {
-	padding-top: 150px;
+	padding-top: 151px;
 	background-size: 100%;
 	background-color: #121212;
 }
 
 .item-2 {
-	padding-top: 34px;
 	width: 1150px;
 	padding-bottom: 60px;
 	margin: 0 auto;
@@ -193,6 +203,7 @@ h3 {
 
 h4 {
 	margin-top: 15px;
+	margin-left: 4px;
 	color: #fff;
 	font-size: 30px;
 	letter-spacing: -0.9px;
@@ -204,7 +215,7 @@ h4 {
 
 .section-bed {
 	position: relative;
-	height: 717px;
+	height: 724px;
 	background-image: url('../resources/bed.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -213,7 +224,7 @@ h4 {
 
 .text-project {
 	position: absolute;
-	left: 125px;
+	left: 422px;
 	bottom: 60px;
 	width: 443px;
 	height: 82px;
@@ -230,7 +241,8 @@ h4 {
 	padding-top: 186px;
 }
 
-.contacts {
+.contacts-wrapper {
+	margin-top: 10px;
 	position: relative;
 }
 
@@ -238,7 +250,8 @@ h4 {
 	width: 24px;
 	height: 24px;
 	bottom: 220px;
-	left: -4px;
+	left: -5px;
+	top: -40px;
 	content: '';
 	display: block;
 	background-image: url('../resources/phone.png');
@@ -258,7 +271,7 @@ h4 {
 	text-decoration: none;
 	font-size: 60px;
 	line-height: 60px;
-	letter-spacing: -1.8px;
+	letter-spacing: -1px;
 	color: #121212;
 }
 
