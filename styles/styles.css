@@ -8,25 +8,27 @@ body {
 }
 
 .header {
-	margin-top: 33px;
-	margin-left: auto;
-	margin-right: auto;
-	display: flex;
-	width: 1150px;
+	margin-top: 30px;
+}
+
+.container {
+	width: 1400px;
+	margin: 0 auto;
+	padding: 0px 125px;
 }
 
 .link-logo {
 	width: 126.889px;
 	height: 21.42px;
 	display: inline-block;
-	margin-right: 558px;
+	margin-right: 553px;
 }
 
 .nav {
 	display: inline-block;
 }
 
-.nav__about {
+.nav__button {
 	margin-right: 58px;
 	font-size: 18px;
 	letter-spacing: -0.54px;
@@ -37,41 +39,13 @@ body {
 	color: #121212;
 }
 
-.nav__projects {
-	margin-right: 57px;
-	font-size: 18px;
-	letter-spacing: -0.54px;
-	text-transform: uppercase;
-	text-decoration: none;
-	line-height: 24px;
-
-	color: #121212;
-}
-
-.nav__services {
-	margin-right: 58px;
-	font-size: 18px;
-	letter-spacing: -0.54px;
-	text-transform: uppercase;
-	text-decoration: none;
-	line-height: 24px;
-
-	color: #121212;
-}
-
-.nav__contacts {
-	font-size: 18px;
-	letter-spacing: -0.54px;
-	text-transform: uppercase;
-	text-decoration: none;
-	line-height: 24px;
-
-	color: #121212;
-}
-
-.nav__about:hover {
-	border-bottom: 1px;
+.nav__button:hover {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 	opacity: 0.5;
+}
+
+.nav__button:last-child {
+	margin-right: 0px;
 }
 
 .wrapper-h1 {
@@ -82,6 +56,9 @@ body {
 }
 
 h1 {
+	margin-top: 70px;
+	margin-bottom: 30px;
+	width: 950px;
 	font-size: 60px;
 	line-height: 60px;
 	letter-spacing: -1.8px;
@@ -89,21 +66,24 @@ h1 {
 	color: #121212;
 }
 
-.welcome {
-	margin-top: 30px;
-	position: relative;
+.welcome__img {
 	width: 1150px;
 	height: 500px;
-	margin: auto;
+	position: relative;
+	background-image: url(../resources/main-pic.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50%;
 }
 
 .welcome__text {
+	width: 430px;
 	position: absolute;
 	left: 40px;
 	bottom: 40px;
 	font-size: 20px;
 	letter-spacing: -0.6px;
-	line-height: 26px;
+	line-height: 27px;
 
 	color: #ffffff;
 }
@@ -119,17 +99,17 @@ h2 {
 
 .about {
 	padding-top: 150px;
-	width: 1150px;
-	margin: auto;
 }
 
 .about__text {
+	width: 1040px;
 	margin-top: 30px;
 	font-size: 45px;
 	letter-spacing: -1.35px;
 	line-height: 61.47px;
 }
-.see-services-link {
+
+.about__link {
 	font-size: 20px;
 	margin-top: 30px;
 	display: inline-flex;
@@ -143,16 +123,14 @@ h2 {
 	color: #ffffff;
 }
 
-.projects__h2 {
-	letter-spacing: -0.54px;
+.projects__title {
 	margin-bottom: 30px;
+	letter-spacing: -0.54px;
 }
 
 .projects {
 	padding-top: 150px;
 	padding-bottom: 150px;
-	width: 1150px;
-	margin: auto;
 }
 
 .item {
@@ -202,14 +180,16 @@ h2 {
 .section-black-wrapper {
 	background-color: #121212;
 }
+
 .section-black {
 	padding-top: 151px;
 	padding-bottom: 150px;
-	line-height: 26px;
-	width: 1150px;
+	width: 1400px;
 	margin: auto;
+	line-height: 26px;
+	background-color: black;
 }
-.section-black__h2 {
+.section-black__title {
 	margin-bottom: 34px;
 	letter-spacing: -0.54px;
 
@@ -236,13 +216,17 @@ h2 {
 
 .full-screen__img {
 	position: relative;
+	margin: auto;
+	width: 1400px;
 	height: 717px;
 	background-image: url(../resources/bed.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 20%;
 }
+
 .full-screen__text {
+	width: 443px;
 	position: absolute;
 	left: 125px;
 	bottom: 60px;
@@ -255,8 +239,6 @@ h2 {
 
 .wrapper-contacts {
 	padding-top: 186px;
-	padding-left: 160px;
-	margin-left: 125px;
 }
 
 .contacts {
@@ -290,7 +272,7 @@ h2 {
 	margin-bottom: 30px;
 	font-size: 60px;
 	line-height: 60px;
-	letter-spacing: -1.8px;
+	letter-spacing: -0.9px;
 
 	text-decoration: none;
 	color: #121212;
@@ -298,6 +280,7 @@ h2 {
 
 .contacts__mail {
 	display: block;
+	width: 412px;
 	font-size: 60px;
 	line-height: 60px;
 	letter-spacing: -1.8px;
@@ -307,7 +290,7 @@ h2 {
 }
 
 .contacts__mail:hover {
-	text-decoration: underline;
+	border-bottom: 2px solid rgba(0, 0, 0, 0.5);
 	opacity: 0.5;
 }
 
@@ -319,61 +302,61 @@ h2 {
 	background-color: #121212;
 }
 
-.nav-footer {
+/* .nav-footer {
+	width: 1400px;
+	margin: auto;
+} */
+
+.footer.footer {
 	width: 1400px;
 	margin: auto;
 }
 
-.nav-footer__about {
-	margin-right: 53px;
-	line-height: 26.59px;
+.nav-footer-button__about {
+	margin-right: 52px;
 	font-size: 18px;
 	letter-spacing: -0.54px;
 	text-transform: uppercase;
 	text-decoration: none;
+	line-height: 24px;
 
 	color: #ffffff;
 }
 
-.nav-footer__about:hover {
-	opacity: 0.5;
-}
-
-.nav-footer__projects {
-	margin-right: 53px;
-	line-height: 26.59px;
+.nav-footer-button__projects {
+	margin-right: 54px;
 	font-size: 18px;
 	letter-spacing: -0.54px;
 	text-transform: uppercase;
 	text-decoration: none;
+	line-height: 24px;
 
 	color: #ffffff;
 }
 
-.nav-footer__services {
-	margin-right: 53px;
-	line-height: 26.59px;
+.nav-footer-button__services {
+	margin-right: 52px;
 	font-size: 18px;
 	letter-spacing: -0.54px;
 	text-transform: uppercase;
 	text-decoration: none;
+	line-height: 24px;
 
 	color: #ffffff;
 }
 
-.nav-footer__contacts {
+.nav-footer-button__contacts {
 	margin-right: 12px;
 	font-size: 18px;
-	line-height: 26.59px;
 	letter-spacing: -0.54px;
 	text-transform: uppercase;
 	text-decoration: none;
+	line-height: 24px;
 
 	color: #ffffff;
 }
 
-.nav__about:hover {
-	text-decoration: underline;
+.nav-footer-button__about_active:hover {
 	opacity: 0.5;
 }
 
@@ -381,7 +364,7 @@ h2 {
 	margin-top: 87px;
 	font-size: 20px;
 	letter-spacing: -0.6px;
-	line-height: 27px;
+	line-height: 30px;
 
 	opacity: 0.5;
 	color: #fff;

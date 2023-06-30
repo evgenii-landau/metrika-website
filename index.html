@@ -42,64 +42,68 @@
 		<link rel="stylesheet" href="styles/styles.css" />
 	</head>
 	<body>
+		
 		<header class="header">
+		<div class="container">
 			<a class="link-logo" href="/"
 				><img src="resources/Метрика.svg" alt="logo-company"
 			/></a>
-			<div class="nav">
-				<a class="nav__about" href="#about">о нас</a>
-				<a class="nav__projects" href="#projects">проекты</a>
-				<a class="nav__services" href="#services">услуги</a>
-				<a class="nav__contacts" href="#contacts">контакты</a>
-			</div>
+			<nav class="nav">
+				<a class="nav__button" href="#about">о нас</a>
+				<a class="nav__button" href="#projects">проекты</a>
+				<a class="nav__button" href="#services">услуги</a>
+				<a class="nav__button" href="#contacts">контакты</a>
+			</nav>
+		</div>
 		</header>
 
 		<main>
-			<div class="wrapper-h1">
-				<h1>Современные и стильные <br> интерьеры для комфортной жизни</h1>
-			</div>
-				<section class="welcome">
-					<img src="/resources/main-pic.jpg" alt="interior-room" />
-					<div class="welcome__text">
-						<p>
-							Мы - команда квалифицированных дизайнеров <br />
-							и архитекторов, занимающихся разработкой и <br />
-							реализацией дизайн-проектов
+			<section class="welcome">
+				<div class="container">
+					<h1>Современные и стильные интерьеры для комфортной жизни</h1>
+					<div class="welcome__img">
+						<p class="welcome__text">
+							Мы - команда квалифицированных дизайнеров
+							и архитекторов, занимающихся разработкой и
+							реализацией дизайн-проектов 
 						</p>
 					</div>
-				</section>
+				</div>
+			</section>
 
-				<section class="about">
+			<section class="about">
+				<div class="container">
 					<h2 id="about">о нас</h2>
-					<p class="about__text">
-						Студия основана в 2011 году. Полностью отдаемся
-						проектированию и реализации интерьеров. К нам обращаются
-						за уютом, индивидуальными <br />
-						решениями и практичностью. Находим <br />
-						конструктивные решения для каждого интерьера, вплоть до
-						каждой детали — нацелены на результат.
-					</p>
-					<a class="see-services-link" href="!=">Посмотреть услуги</a>
-				</section>
+						<p class="about__text">
+							Студия основана в 2011 году. Полностью отдаемся
+							проектированию и реализации интерьеров. К нам обращаются
+							за уютом, индивидуальными решениями и практичностью. Находим
+							конструктивные решения для каждого интерьера, вплоть до
+							каждой детали — нацелены на результат.
+						</p>
+						<a class="about__link" href="!=">Посмотреть услуги</a>
+				</div>
+			</section>
 
-				<section class="projects">
-					<h2 class="projects__h2" id="projects">проекты</h2>
+			<section class="projects">
+				<div class="container">
+					<h2 class="projects__title" id="projects">проекты</h2>
 					<div class="item">
-						<img src="/resources/JK1.jpg" alt="interior-house" />
+						<img src="resources/JK1.jpg" alt="interior-house" />
 						<p class="item__text">
 							ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023
 						</p>
 						<a class="item__link" href="!=">Подробнее →</a>
 					</div>
 					<div class="item">
-						<img src="/resources/JK2.jpg" alt="interior-house" />
+						<img src="resources/JK2.jpg" alt="interior-house" />
 						<p class="item__text">
 							ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023
 						</p>
 						<a class="item__link" href="!=">Подробнее →</a>
 					</div>
 					<div class="item">
-						<img src="/resources/JK3.jpg" alt="interior-house" />
+						<img src="resources/JK3.jpg" alt="interior-house" />
 						<p class="item__text">
 							ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022
 						</p>
@@ -107,17 +111,18 @@
 					</div>
 					<div class="projects__anchor-wrapper">
 						<a class="projects__anchor" href="!="
-							>Смотреть все проекты</a
-						>
+							>Смотреть все проекты
+						</a>
 					</div>
-				</section>
+				</div>
+			</section>
 
-			<div class="section-black-wrapper">
-				<section class="section-black">
-					<h2 class="section-black__h2" id="services">услуги</h2>
+			<section class="section-black">
+				<div class="container">
+					<h2 class="section-black__title" id="services">услуги</h2>
 					<div class="item-in-black-section">
 						<img
-							src="/resources/services-1.jpg"
+							src="resources/services-1.jpg"
 							alt="plan-and-pencil"
 						/>
 						<p class="item-in-black-section-text">
@@ -126,7 +131,7 @@
 					</div>
 					<div class="item-in-black-section">
 						<img
-							src="/resources/services-2.jpg"
+							src="resources/services-2.jpg"
 							alt="colors"
 						/>
 						<p class="item-in-black-section-text">
@@ -135,7 +140,7 @@
 					</div>
 					<div class="item-in-black-section">
 						<img
-							src="/resources/services-3.jpg"
+							src="resources/services-3.jpg"
 							alt="plan"
 						/>
 						<p class="item-in-black-section-text">
@@ -144,39 +149,43 @@
 					</div>
 					<div class="item-in-black-section">
 						<img
-							src="/resources/services-4.jpg"
+							src="resources/services-4.jpg"
 							alt="factory"
 						/>
 						<p class="item-in-black-section-text">
 							Комплектация — 5% от стоимости спецификации
 						</p>
 					</div>
-				</section>
-			</div>
+				</div>
+			</section>
 
 			<section class="full-screen">
 				<div class="full-screen__img">
-					<p class="full-screen__text">Проект  Двухкомнтаной <br> квартиры в ЖК Лесной Пейзаж</pc>
+					<p class="full-screen__text">Проект Двухкомнтаной квартиры в ЖК Лесной Пейзаж</pc>
 				</div>
 			</section>
 
 			<section class="wrapper-contacts">
-				<div class="contacts">
-					<h2 class="contacts__h2" id="contacts">контакты</h2>
-					<a class="contacts__tel" href="tel:+79358954535">+7 935  895-45-35</a>
-					<a class="contacts__mail" href="mailto:hello@mail.com">hello@mail.com</a>
+				<div class="container">
+					<div class="contacts">
+						<h2 class="contacts__h2" id="contacts">контакты</h2>
+						<a class="contacts__tel" href="tel:+79358954535">+7 935  895-45-35</a>
+						<a class="contacts__mail" href="mailto:hello@mail.com">hello@mail.com</a>
+					</div>
 				</div>
 			</section>
 		</main>
 		
 		<footer class="footer">
-			<div class="nav-footer">
-				<a class="nav-footer__about" href="#about">о нас</a>
-				<a class="nav-footer__projects" href="#projects">проекты</a>
-				<a class="nav-footer__services" href="#services">услуги</a>
-				<a class="nav-footer__contacts" href="#contacts">контакты</a>
+			<div class="container">
+				<nav class="nav-footer">
+					<a class="nav-footer-button__about nav-footer-button__about_active" href="#about">о нас</a>
+					<a class="nav-footer-button__projects nav-footer-button__about_active" href="#projects">проекты</a>
+					<a class="nav-footer-button__services nav-footer-button__about_active" href="#services">услуги</a>
+					<a class="nav-footer-button__contacts nav-footer-button__about_active" href="#contacts">контакты</a>
+				</nav>
+				<p class="footer__text">студия дизайна интерьера Метрика — 2023</p>
 			</div>
-			<p class="footer__text">студия дизайна интерьера Метрика — 2023</p>
 		</footer>
 	</body>
 </html>
