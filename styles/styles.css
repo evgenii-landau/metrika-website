@@ -7,7 +7,387 @@ body {
 	width: 100%;
 }
 
+.header {
+	margin-top: 33px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	width: 1150px;
+}
+
+.link-logo {
+	width: 126.889px;
+	height: 21.42px;
+	display: inline-block;
+	margin-right: 558px;
+}
+
+.nav {
+	display: inline-block;
+}
+
+.nav__about {
+	margin-right: 58px;
+	font-size: 18px;
+	letter-spacing: -0.54px;
+	text-transform: uppercase;
+	text-decoration: none;
+	line-height: 24px;
+
+	color: #121212;
+}
+
+.nav__projects {
+	margin-right: 57px;
+	font-size: 18px;
+	letter-spacing: -0.54px;
+	text-transform: uppercase;
+	text-decoration: none;
+	line-height: 24px;
+
+	color: #121212;
+}
+
+.nav__services {
+	margin-right: 58px;
+	font-size: 18px;
+	letter-spacing: -0.54px;
+	text-transform: uppercase;
+	text-decoration: none;
+	line-height: 24px;
+
+	color: #121212;
+}
+
+.nav__contacts {
+	font-size: 18px;
+	letter-spacing: -0.54px;
+	text-transform: uppercase;
+	text-decoration: none;
+	line-height: 24px;
+
+	color: #121212;
+}
+
+.nav__about:hover {
+	border-bottom: 1px;
+	opacity: 0.5;
+}
+
+.wrapper-h1 {
+	padding-top: 70px;
+	padding-bottom: 30px;
+	width: 1150px;
+	margin: auto;
+}
+
+h1 {
+	font-size: 60px;
+	line-height: 60px;
+	letter-spacing: -1.8px;
+
+	color: #121212;
+}
+
 .welcome {
+	margin-top: 30px;
+	position: relative;
+	width: 1150px;
+	height: 500px;
+	margin: auto;
+}
+
+.welcome__text {
+	position: absolute;
+	left: 40px;
+	bottom: 40px;
+	font-size: 20px;
+	letter-spacing: -0.6px;
+	line-height: 26px;
+
+	color: #ffffff;
+}
+
+h2 {
+	font-size: 18px;
+	letter-spacing: -0.54px;
+	text-transform: uppercase;
+	line-height: 24.59px;
+
+	color: #121212;
+}
+
+.about {
+	padding-top: 150px;
+	width: 1150px;
+	margin: auto;
+}
+
+.about__text {
+	margin-top: 30px;
+	font-size: 45px;
+	letter-spacing: -1.35px;
+	line-height: 61.47px;
+}
+.see-services-link {
+	font-size: 20px;
+	margin-top: 30px;
+	display: inline-flex;
+	padding: 20px 40px;
+	letter-spacing: -0.6px;
+	line-height: 27.32px;
+
+	border-radius: 5px;
+	text-decoration: none;
+	background-color: #ad1818;
+	color: #ffffff;
+}
+
+.projects__h2 {
+	letter-spacing: -0.54px;
+	margin-bottom: 30px;
+}
+
+.projects {
+	padding-top: 150px;
+	padding-bottom: 150px;
+	width: 1150px;
+	margin: auto;
+}
+
+.item {
+	margin-bottom: 90px;
+}
+
+.item__text {
+	margin: 14px 0px;
+	line-height: 41px;
+	font-size: 30px;
+	letter-spacing: -0.9px;
+
+	color: #121212;
+}
+
+.item__link {
+	font-size: 20px;
+	letter-spacing: -0.6px;
+	line-height: 27.32px;
+
+	text-decoration: none;
+	color: #ad1818;
+}
+
+.projects__anchor-wrapper {
+	border-radius: 5px;
+	border: 1px solid #ad1818;
+}
+
+.projects__anchor {
+	padding: 54px 0px;
+	display: block;
+	text-align: center;
+	font-size: 30px;
+	letter-spacing: -0.9px;
+	line-height: 41px;
+
+	text-decoration: none;
+	color: #ad1818;
+}
+
+.projects__anchor:hover {
+	background-color: #ad1818;
+	color: #ffffff;
+}
+
+.section-black-wrapper {
+	background-color: #121212;
+}
+.section-black {
+	padding-top: 151px;
+	padding-bottom: 150px;
+	line-height: 26px;
+	width: 1150px;
+	margin: auto;
+}
+.section-black__h2 {
+	margin-bottom: 34px;
+	letter-spacing: -0.54px;
+
+	color: #ffffff;
+}
+
+.item-in-black-section {
+	margin-bottom: 60px;
+}
+
+.item-in-black-section-text {
+	margin-left: 3px;
+	padding-top: 8px;
+	font-size: 30px;
+	letter-spacing: -0.9px;
+	line-height: 41px;
+
+	color: #fff;
+}
+
+.item-in-black-section:last-child {
+	margin-bottom: 0px;
+}
+
+.full-screen__img {
+	position: relative;
+	height: 717px;
+	background-image: url(../resources/bed.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 20%;
+}
+.full-screen__text {
+	position: absolute;
+	left: 125px;
+	bottom: 60px;
+	font-size: 30px;
+	letter-spacing: -0.9px;
+	line-height: 41px;
+
+	color: #ffffff;
+}
+
+.wrapper-contacts {
+	padding-top: 186px;
+	padding-left: 160px;
+	margin-left: 125px;
+}
+
+.contacts {
+	position: relative;
+	padding-bottom: 160px;
+}
+
+.contacts::before {
+	position: absolute;
+	top: -33px;
+	left: -4px;
+	content: '';
+	display: block;
+	width: 24px;
+	height: 24px;
+	background-image: url(../resources/phone.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.contacts__h2 {
+	margin-bottom: 32px;
+	font-size: 18px;
+	letter-spacing: -0.54px;
+	text-transform: uppercase;
+
+	color: #121212;
+}
+.contacts__tel {
+	display: block;
+	margin-bottom: 30px;
+	font-size: 60px;
+	line-height: 60px;
+	letter-spacing: -1.8px;
+
+	text-decoration: none;
+	color: #121212;
+}
+
+.contacts__mail {
+	display: block;
+	font-size: 60px;
+	line-height: 60px;
+	letter-spacing: -1.8px;
+	text-decoration: none;
+
+	color: #121212;
+}
+
+.contacts__mail:hover {
+	text-decoration: underline;
+	opacity: 0.5;
+}
+
+.footer {
+	padding-top: 60px;
+	padding-bottom: 30px;
+	text-align: center;
+
+	background-color: #121212;
+}
+
+.nav-footer {
+	width: 1400px;
+	margin: auto;
+}
+
+.nav-footer__about {
+	margin-right: 53px;
+	line-height: 26.59px;
+	font-size: 18px;
+	letter-spacing: -0.54px;
+	text-transform: uppercase;
+	text-decoration: none;
+
+	color: #ffffff;
+}
+
+.nav-footer__about:hover {
+	opacity: 0.5;
+}
+
+.nav-footer__projects {
+	margin-right: 53px;
+	line-height: 26.59px;
+	font-size: 18px;
+	letter-spacing: -0.54px;
+	text-transform: uppercase;
+	text-decoration: none;
+
+	color: #ffffff;
+}
+
+.nav-footer__services {
+	margin-right: 53px;
+	line-height: 26.59px;
+	font-size: 18px;
+	letter-spacing: -0.54px;
+	text-transform: uppercase;
+	text-decoration: none;
+
+	color: #ffffff;
+}
+
+.nav-footer__contacts {
+	margin-right: 12px;
+	font-size: 18px;
+	line-height: 26.59px;
+	letter-spacing: -0.54px;
+	text-transform: uppercase;
+	text-decoration: none;
+
+	color: #ffffff;
+}
+
+.nav__about:hover {
+	text-decoration: underline;
+	opacity: 0.5;
+}
+
+.footer__text {
+	margin-top: 87px;
+	font-size: 20px;
+	letter-spacing: -0.6px;
+	line-height: 27px;
+
+	opacity: 0.5;
+	color: #fff;
+}
+
+/* .welcome {
 	padding-top: 16px;
 	width: 1150px;
 	margin: 0 auto;
@@ -323,4 +703,4 @@ h4 {
 	letter-spacing: -0.6px;
 	color: #fff;
 	opacity: 0.5;
-}
+} */
