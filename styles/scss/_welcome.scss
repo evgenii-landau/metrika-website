@@ -1,0 +1,21 @@
+.welcome__img {
+	width: 1150px;
+	height: 500px;
+	position: relative;
+	background-image: url(../../resources/main-pic.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50%;
+}
+
+.welcome__text {
+	width: 430px;
+	position: absolute;
+	left: 40px;
+	bottom: 40px;
+	font-size: 20px;
+	letter-spacing: -0.6px;
+	line-height: 27px;
+
+	color: #ffffff;
+}

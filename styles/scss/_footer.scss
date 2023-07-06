@@ -1,0 +1,101 @@
+// .footer {
+
+// }
+
+// .footer.footer {
+//
+// }
+
+// .nav-footer-button__about {
+
+// }
+
+// .nav-footer-button__projects {
+
+// }
+
+// .nav-footer-button__services {
+
+// }
+
+// .nav-footer-button__contacts {
+
+// }
+
+// .nav-footer-button__about_active:hover {
+// 	opacity: 0.5;
+// }
+
+// .footer__text {
+
+// }
+
+.footer {
+	width: 1400px;
+	margin: auto;
+	padding-top: 60px;
+	padding-bottom: 30px;
+	text-align: center;
+	background-color: #121212;
+
+	&__text {
+		margin-top: 87px;
+		font-size: 20px;
+		letter-spacing: -0.6px;
+		line-height: 30px;
+
+		opacity: 0.5;
+		color: #ffffff;
+	}
+}
+
+.nav {
+	&__button {
+		&_active:hover {
+			opacity: 0.5;
+		}
+	}
+	&__button-about {
+		margin-right: 52px;
+		font-size: 18px;
+		letter-spacing: -0.54px;
+		text-transform: uppercase;
+		text-decoration: none;
+		line-height: 24px;
+
+		color: #ffffff;
+	}
+
+	&__button-projects {
+		margin-right: 54px;
+		font-size: 18px;
+		letter-spacing: -0.54px;
+		text-transform: uppercase;
+		text-decoration: none;
+		line-height: 24px;
+
+		color: #ffffff;
+	}
+
+	&__button-services {
+		margin-right: 52px;
+		font-size: 18px;
+		letter-spacing: -0.54px;
+		text-transform: uppercase;
+		text-decoration: none;
+		line-height: 24px;
+
+		color: #ffffff;
+	}
+
+	&__button-contacts {
+		margin-right: 12px;
+		font-size: 18px;
+		letter-spacing: -0.54px;
+		text-transform: uppercase;
+		text-decoration: none;
+		line-height: 24px;
+
+		color: #ffffff;
+	}
+}

@@ -1,0 +1,27 @@
+.about {
+	padding-top: 150px;
+
+	&__text {
+		width: 1040px;
+		margin-top: 30px;
+		font-size: 45px;
+		letter-spacing: -1.35px;
+		line-height: 61.47px;
+	}
+
+	&__button {
+		margin-top: 30px;
+		display: inline-flex;
+		padding: 20px 40px;
+	}
+}
+
+.about-btn {
+	font-size: 20px;
+	letter-spacing: -0.6px;
+	line-height: 27.32px;
+	border-radius: 5px;
+	text-decoration: none;
+	background-color: #ad1818;
+	color: #ffffff;
+}

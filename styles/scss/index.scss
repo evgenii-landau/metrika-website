@@ -1,0 +1,43 @@
+@import 'header';
+@import 'welcome';
+@import 'about';
+@import 'projects';
+@import 'services';
+@import 'fullscreen';
+@import 'contacts';
+@import 'footer';
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Manrope', sans-serif;
+	width: 100%;
+}
+
+h2 {
+	font-size: 18px;
+	letter-spacing: -0.54px;
+	text-transform: uppercase;
+	line-height: 24.59px;
+
+	color: #121212;
+}
+
+h1 {
+	margin-top: 70px;
+	margin-bottom: 30px;
+	width: 950px;
+	font-size: 60px;
+	line-height: 60px;
+	letter-spacing: -1.8px;
+
+	color: #121212;
+}
+
+.container {
+	width: 1400px;
+	margin: 0 auto;
+	padding: 0px 125px;
+}
