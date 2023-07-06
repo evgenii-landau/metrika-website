@@ -7,10 +7,6 @@
 		letter-spacing: -0.54px;
 	}
 
-	&__projects-item {
-		margin-bottom: 90px;
-	}
-
 	&__watch-all-projects-link {
 		padding: 54px 0px;
 		display: block;
@@ -51,4 +47,8 @@
 .watch-all-projects-link:hover {
 	background-color: #ad1818;
 	color: #ffffff;
+}
+
+.projects-item-wrapper {
+	margin-bottom: 90px;
 }

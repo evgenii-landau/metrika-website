@@ -5,13 +5,14 @@
   display: inline-block;
   margin-right: 553px;
 }
-.header__nav {
-  display: inline-block;
-}
 
 .logo {
   width: 126.889px;
   height: 21.42px;
+}
+
+.nav-wrapper {
+  display: inline-block;
 }
 
 .nav__button {
@@ -91,9 +92,6 @@
   margin-bottom: 30px;
   letter-spacing: -0.54px;
 }
-.projects__projects-item {
-  margin-bottom: 90px;
-}
 .projects__watch-all-projects-link {
   padding: 54px 0px;
   display: block;
@@ -130,6 +128,10 @@
   color: #ffffff;
 }
 
+.projects-item-wrapper {
+  margin-bottom: 90px;
+}
+
 .services {
   padding-top: 151px;
   padding-bottom: 150px;
@@ -143,9 +145,6 @@
   letter-spacing: -0.54px;
   color: #ffffff;
 }
-.services__services-item {
-  margin-bottom: 60px;
-}
 
 .services-item__text {
   margin-left: 3px;
@@ -156,7 +155,11 @@
   color: #fff;
 }
 
-.services__item:last-child {
+.services-item-wrapper {
+  margin-bottom: 60px;
+}
+
+.services-item-wrapper:last-child {
   margin-bottom: 0px;
 }
 
@@ -184,12 +187,13 @@
 .contacts {
   padding-top: 186px;
 }
-.contacts__contacts-content {
+
+.contacts-content-wrapper {
   position: relative;
   padding-bottom: 160px;
 }
 
-.contacts-content__h2 {
+.contacts-content__title {
   margin-bottom: 32px;
   font-size: 18px;
   letter-spacing: -0.54px;

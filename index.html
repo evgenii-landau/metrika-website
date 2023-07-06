@@ -44,15 +44,17 @@
 	<body>
 		<header class="header">
 			<div class="container">
-				<a class="logo header__logo" href="/"
+				<a class="header__logo logo" href="/"
 					><img src="resources/Метрика.svg" alt="logo-company"
 				/></a>
-				<nav class="nav header__nav">
-					<a class="nav__button btn" href="#about">о нас</a>
-					<a class="nav__button btn" href="#services">услуги</a>
-					<a class="nav__button btn" href="#contacts">контакты</a>
-					<a class="nav__button btn" href="#projects">проекты</a>
-				</nav>
+				<div class="nav-wrapper">
+					<nav class="nav">
+						<a class="nav__button btn" href="#about">о нас</a>
+						<a class="nav__button btn" href="#services">услуги</a>
+						<a class="nav__button btn" href="#contacts">контакты</a>
+						<a class="nav__button btn" href="#projects">проекты</a>
+					</nav>
+				</div>
 			</div>
 		</header>
 
@@ -92,7 +94,7 @@
 				<div class="container">
 					<h2 class="projects__title" id="projects">проекты</h2>
 					<ul>
-						<li class="projects-item projects__projects-item">
+						<li class="projects-item projects-item-wrapper">
 							<img src="resources/JK1.jpg" alt="interior-house" />
 							<p class="projects-item__text">
 								ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023
@@ -101,7 +103,7 @@
 								>Подробнее →</a
 							>
 						</li>
-						<li class="projects-item projects__projects-item">
+						<li class="projects-item projects-item-wrapper">
 							<img src="resources/JK2.jpg" alt="interior-house" />
 							<p class="projects-item__text">
 								ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023
@@ -110,7 +112,7 @@
 								>Подробнее →</a
 							>
 						</li>
-						<li class="projects-item projects__projects-item">
+						<li class="projects-item projects-item-wrapper">
 							<img src="resources/JK3.jpg" alt="interior-house" />
 							<p class="projects-item__text">
 								ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022
@@ -132,7 +134,7 @@
 				<div class="container">
 					<h2 class="services__title" id="services">услуги</h2>
 					<ul>
-						<li class="services-item services__services-item">
+						<li class="services-item services-item-wrapper">
 							<img
 								src="resources/services-1.jpg"
 								alt="plan-and-pencil"
@@ -141,19 +143,19 @@
 								Планировочное решение — от 2500₽/м²
 							</p>
 						</li>
-						<li class="services-item services__services-item">
+						<li class="services-item services-item-wrapper">
 							<img src="resources/services-2.jpg" alt="colors" />
 							<p class="services-item__text">
 								Дизайн-проект — от 3000₽/м²
 							</p>
 						</li>
-						<li class="services-item services__services-item">
+						<li class="services-item services-item-wrapper">
 							<img src="resources/services-3.jpg" alt="plan" />
 							<p class="services-item__text">
 								Авторский надзор — от 30 000₽ в месяц
 							</p>
 						</li>
-						<li class="services-item services__services-item">
+						<li class="services-item services-item-wrapper">
 							<img src="resources/services-4.jpg" alt="factory" />
 							<p class="services-item__text">
 								Комплектация — 5% от стоимости спецификации
@@ -173,8 +175,8 @@
 
 			<section class="contacts">
 				<div class="container">
-					<div class="contacts-content contacts__contacts-content">
-						<h2 class="contacts-content__h2" id="contacts">
+					<div class="contacts-content contacts-content-wrapper">
+						<h2 class="contacts-content__title" id="contacts">
 							контакты
 						</h2>
 						<a class="contacts-content__tel" href="tel:+79358954535"

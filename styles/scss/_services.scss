@@ -13,10 +13,6 @@
 
 		color: #ffffff;
 	}
-
-	&__services-item {
-		margin-bottom: 60px;
-	}
 }
 
 .services-item {
@@ -31,6 +27,10 @@
 	}
 }
 
-.services__item:last-child {
+.services-item-wrapper {
+	margin-bottom: 60px;
+}
+
+.services-item-wrapper:last-child {
 	margin-bottom: 0px;
 }
