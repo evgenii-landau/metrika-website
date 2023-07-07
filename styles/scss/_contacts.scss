@@ -18,8 +18,9 @@
 	}
 
 	&__tel {
-		display: block;
 		margin-bottom: 30px;
+		display: block;
+		width: 473px;
 		font-size: 60px;
 		line-height: 60px;
 		letter-spacing: -0.9px;
@@ -38,6 +39,11 @@
 
 		color: #121212;
 	}
+}
+
+.contacts-content__tel:hover {
+	border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+	opacity: 0.5;
 }
 
 .contacts-content__mail:hover {

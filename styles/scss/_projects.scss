@@ -7,11 +7,23 @@
 		letter-spacing: -0.54px;
 	}
 
-	&__watch-all-projects-link {
+	&__link-button {
 		padding: 54px 0px;
 		display: block;
 		text-align: center;
+		border-radius: 5px;
+		border: 1px solid #ad1818;
+		font-size: 30px;
+		letter-spacing: -0.9px;
+		line-height: 41px;
+		text-decoration: none;
+		color: #ad1818;
 	}
+}
+
+.projects__link-button:hover {
+	background-color: #ad1818;
+	color: #ffffff;
 }
 
 .projects-item {
@@ -32,21 +44,6 @@
 		text-decoration: none;
 		color: #ad1818;
 	}
-}
-
-.watch-all-projects-link {
-	border-radius: 5px;
-	border: 1px solid #ad1818;
-	font-size: 30px;
-	letter-spacing: -0.9px;
-	line-height: 41px;
-	text-decoration: none;
-	color: #ad1818;
-}
-
-.watch-all-projects-link:hover {
-	background-color: #ad1818;
-	color: #ffffff;
 }
 
 .projects-item-wrapper {
