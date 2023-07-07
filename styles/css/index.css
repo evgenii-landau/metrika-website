@@ -59,7 +59,7 @@
 }
 
 .about {
-  padding-top: 150px;
+  margin-top: 150px;
 }
 .about__text {
   width: 1040px;
@@ -85,8 +85,7 @@
 }
 
 .projects {
-  padding-top: 150px;
-  padding-bottom: 150px;
+  margin-top: 150px;
 }
 .projects__title {
   margin-bottom: 30px;
@@ -134,7 +133,7 @@
   padding-bottom: 150px;
   margin: auto;
   line-height: 26px;
-  background-color: black;
+  background-color: #121212;
 }
 .services__title {
   margin-bottom: 34px;
@@ -179,12 +178,11 @@
 }
 
 .contacts {
-  padding-top: 186px;
+  margin-top: 186px;
 }
 
 .contacts-content-wrapper {
   position: relative;
-  padding-bottom: 160px;
 }
 
 .contacts-content__title {
@@ -244,6 +242,9 @@
   text-align: center;
   background-color: #121212;
 }
+.footer__nav {
+  margin-right: 52px;
+}
 .footer__text {
   margin-top: 87px;
   font-size: 20px;
@@ -253,11 +254,10 @@
   color: #ffffff;
 }
 
-.nav__button_active:hover {
+.nav__button:hover {
   opacity: 0.5;
 }
 .nav__button-about {
-  margin-right: 52px;
   font-size: 18px;
   letter-spacing: -0.54px;
   text-transform: uppercase;
@@ -265,7 +265,7 @@
   line-height: 24px;
   color: #ffffff;
 }
-.nav__button-projects {
+.nav__button-active-projects {
   margin-right: 54px;
   font-size: 18px;
   letter-spacing: -0.54px;
@@ -274,7 +274,7 @@
   line-height: 24px;
   color: #ffffff;
 }
-.nav__button-services {
+.nav__button-active-services {
   margin-right: 52px;
   font-size: 18px;
   letter-spacing: -0.54px;
@@ -324,4 +324,8 @@ h1 {
   width: 1400px;
   margin: 0 auto;
   padding: 0px 125px;
+}
+
+section {
+  margin-bottom: 150px;
 }
