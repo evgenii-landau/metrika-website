@@ -21,16 +21,6 @@
 	}
 }
 
-.btn-footer {
-	font-size: 18px;
-	letter-spacing: -0.54px;
-	text-transform: uppercase;
-	text-decoration: none;
-	line-height: 24px;
-
-	color: #ffffff;
-}
-
 .btn-footer:hover {
 	opacity: 0.5;
 }
@@ -38,17 +28,21 @@
 .nav {
 	&__button-about {
 		margin-right: 49px;
+		color: #ffffff;
 	}
 
 	&__button-projects {
 		margin-right: 56px;
+		color: #ffffff;
 	}
 
 	&__button-services {
 		margin-right: 51px;
+		color: #ffffff;
 	}
 
 	&__button-contacts {
 		margin-right: 4px;
+		color: #ffffff;
 	}
 }

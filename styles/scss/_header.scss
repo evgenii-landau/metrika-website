@@ -19,6 +19,7 @@
 .nav {
 	&__button {
 		margin-right: 58px;
+		color: #121212;
 	}
 }
 
@@ -28,8 +29,6 @@
 	text-transform: uppercase;
 	text-decoration: none;
 	line-height: 24px;
-
-	color: #121212;
 }
 
 .btn:hover {

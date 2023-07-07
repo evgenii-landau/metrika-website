@@ -17,6 +17,7 @@
 
 .nav__button {
   margin-right: 58px;
+  color: #121212;
 }
 
 .btn {
@@ -25,7 +26,6 @@
   text-transform: uppercase;
   text-decoration: none;
   line-height: 24px;
-  color: #121212;
 }
 
 .btn:hover {
@@ -252,30 +252,25 @@
   color: #ffffff;
 }
 
-.btn-footer {
-  font-size: 18px;
-  letter-spacing: -0.54px;
-  text-transform: uppercase;
-  text-decoration: none;
-  line-height: 24px;
-  color: #ffffff;
-}
-
 .btn-footer:hover {
   opacity: 0.5;
 }
 
 .nav__button-about {
   margin-right: 49px;
+  color: #ffffff;
 }
 .nav__button-projects {
   margin-right: 56px;
+  color: #ffffff;
 }
 .nav__button-services {
   margin-right: 51px;
+  color: #ffffff;
 }
 .nav__button-contacts {
   margin-right: 4px;
+  color: #ffffff;
 }
 
 html {
