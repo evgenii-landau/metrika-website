@@ -58,9 +58,6 @@
   color: #ffffff;
 }
 
-.about {
-  margin-top: 150px;
-}
 .about__text {
   width: 1040px;
   margin-top: 30px;
@@ -255,43 +252,30 @@
   color: #ffffff;
 }
 
-.nav__button:hover {
+.btn-footer {
+  font-size: 18px;
+  letter-spacing: -0.54px;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.btn-footer:hover {
   opacity: 0.5;
 }
+
 .nav__button-about {
-  font-size: 18px;
-  letter-spacing: -0.54px;
-  text-transform: uppercase;
-  text-decoration: none;
-  line-height: 24px;
-  color: #ffffff;
+  margin-right: 49px;
 }
-.nav__button-active-projects {
-  margin-right: 54px;
-  font-size: 18px;
-  letter-spacing: -0.54px;
-  text-transform: uppercase;
-  text-decoration: none;
-  line-height: 24px;
-  color: #ffffff;
+.nav__button-projects {
+  margin-right: 56px;
 }
-.nav__button-active-services {
-  margin-right: 52px;
-  font-size: 18px;
-  letter-spacing: -0.54px;
-  text-transform: uppercase;
-  text-decoration: none;
-  line-height: 24px;
-  color: #ffffff;
+.nav__button-services {
+  margin-right: 51px;
 }
 .nav__button-contacts {
-  margin-right: 12px;
-  font-size: 18px;
-  letter-spacing: -0.54px;
-  text-transform: uppercase;
-  text-decoration: none;
-  line-height: 24px;
-  color: #ffffff;
+  margin-right: 4px;
 }
 
 html {
