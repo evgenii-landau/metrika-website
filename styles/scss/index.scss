@@ -28,7 +28,6 @@ h2 {
 h1 {
 	margin-top: 70px;
 	margin-bottom: 30px;
-	width: 950px;
 	font-size: 60px;
 	line-height: 60px;
 	letter-spacing: -1.8px;
@@ -37,11 +36,185 @@ h1 {
 }
 
 .container {
-	width: 1400px;
+	width: 1150px;
 	margin: 0 auto;
-	padding: 0px 125px;
 }
 
 section {
 	margin-bottom: 150px;
+}
+
+@media (max-width: 1199px) {
+	.container {
+		width: 100%;
+		padding: 0 15px;
+	}
+
+	h1 {
+		width: 802px;
+		font-size: 50px;
+		letter-spacing: -1.5px;
+	}
+
+	.welcome__img {
+		height: 400px;
+	}
+
+	.welcome__text {
+		left: 40px;
+		bottom: 30px;
+	}
+
+	.about__text {
+		width: 690px;
+		font-size: 35px;
+		line-height: normal;
+		letter-spacing: -1.05px;
+	}
+
+	.projects-item__text {
+		font-size: 25px;
+		line-height: normal;
+		letter-spacing: -0.75px;
+	}
+
+	.room__img {
+		height: 536px;
+	}
+
+	.room__text {
+		width: 375px;
+		left: 50px;
+		bottom: 80px;
+		font-size: 25px;
+		line-height: normal;
+		letter-spacing: -0.75px;
+	}
+
+	.contacts-content__tel {
+		font-size: 45px;
+		line-height: 60px;
+		letter-spacing: -1.35px;
+	}
+
+	.contacts-content__mail {
+		font-size: 45px;
+		line-height: 60px;
+		letter-spacing: -1.35px;
+	}
+}
+
+@media (max-width: 767px) {
+	.container {
+		padding: 13px;
+	}
+
+	.header__logo {
+		margin-right: 20px;
+	}
+	//! Отступы Белые
+
+	h1 {
+		width: 100%;
+		font-size: 30px;
+		line-height: 31.621px;
+		letter-spacing: -0.9px;
+	}
+
+	.welcome__img {
+		height: 304px;
+	}
+
+	.welcome__text {
+		left: 15px;
+		bottom: 15px;
+		width: 312px;
+		font-size: 16px;
+		line-height: normal;
+		letter-spacing: -0.48px;
+	}
+
+	h2 {
+		font-size: 14px;
+		line-height: normal;
+		letter-spacing: -0.42px;
+		text-transform: uppercase;
+	}
+
+	.about__text {
+		width: 100%;
+		font-size: 22px;
+		line-height: normal;
+		letter-spacing: -0.66px;
+	}
+
+	.about-btn {
+		font-size: 16px;
+		line-height: normal;
+		letter-spacing: -0.48px;
+	}
+
+	.projects-item__img {
+		height: 250px;
+	}
+
+	.projects-item__text {
+		font-size: 18px;
+		line-height: normal;
+		letter-spacing: -0.54px;
+	}
+
+	.projects-item__link {
+		font-size: 16px;
+		line-height: normal;
+		letter-spacing: -0.48px;
+	}
+
+	.projects__link-button {
+		font-size: 22px;
+		line-height: normal;
+		letter-spacing: -0.66px;
+	}
+
+	.room__img {
+		height: 408px;
+		background-position: 50%;
+	}
+
+	.room__text {
+		left: 13px;
+		bottom: 60px;
+		width: 285px;
+		font-size: 19.009px;
+		line-height: normal;
+		letter-spacing: -0.57px;
+	}
+
+	.contacts-content__tel {
+		width: 100%;
+		font-size: 35px;
+		line-height: 45.621px;
+		letter-spacing: -1.05px;
+	}
+
+	.contacts-content__mail {
+		width: 100%;
+		font-size: 35px;
+		line-height: 45.621px;
+		letter-spacing: -1.05px;
+	}
+
+	.btn {
+		font-size: 12px;
+		line-height: normal;
+		letter-spacing: -0.36px;
+		text-transform: uppercase;
+	}
+
+	.footer__text {
+		width: 287px;
+		font-size: 13px;
+		line-height: normal;
+		letter-spacing: -0.39px;
+	}
 }
