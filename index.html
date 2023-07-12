@@ -3,30 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<title>Метрика</title>
-
-		<link
-			rel="apple-touch-icon"
-			sizes="180x180"
-			href="favicons/apple-touch-icon.png"
-		/>
-		<link
-			rel="icon"
-			type="image/png"
-			sizes="32x32"
-			href="favicons/favicon-32x32.png"
-		/>
-		<link
-			rel="icon"
-			type="image/png"
-			sizes="16x16"
-			href="favicons/favicon-16x16.png"
-		/>
-		<link rel="manifest" href="favicons/site.webmanifest" />
-		<link
-			rel="mask-icon"
-			href="favicons/safari-pinned-tab.svg"
-			color="#5bbad5"
-		/>
+		<link rel="icon" href="/favicons/Метрика.png" type="image/png" />
 		<meta name="msapplication-TileColor" content="#603cba" />
 		<meta name="theme-color" content="#ffffff" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -95,11 +72,21 @@
 					<h2 class="projects__title" id="projects">проекты</h2>
 					<ul>
 						<li class="projects-item projects-item-wrapper">
-							<img
-								class="projects-item__img"
-								src="resources/JK1.jpg"
-								alt="interior-house"
-							/>
+							<picture>
+								<source
+									media="(max-width: 767px)"
+									srcset="resources/projects/JK1_phone.png"
+								/>
+								<source
+									media="(max-width: 1199px)"
+									srcset="resources/projects/JK1_tablet.png"
+								/>
+								<img
+									class="projects-item__img"
+									src="resources/projects/JK1.png"
+									alt="interior-house"
+								/>
+							</picture>
 							<p class="projects-item__text">
 								ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023
 							</p>
@@ -108,11 +95,21 @@
 							>
 						</li>
 						<li class="projects-item projects-item-wrapper">
-							<img
-								class="projects-item__img"
-								src="resources/JK2.jpg"
-								alt="interior-house"
-							/>
+							<picture>
+								<source
+									media="(max-width: 767px)"
+									srcset="resources/projects/JK2_phone.png"
+								/>
+								<source
+									media="(max-width: 1199px)"
+									srcset="resources/projects/JK2_tablet.png"
+								/>
+								<img
+									class="projects-item__img"
+									src="resources/projects/JK2.png"
+									alt="interior-house"
+								/>
+							</picture>
 							<p class="projects-item__text">
 								ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023
 							</p>
@@ -121,11 +118,21 @@
 							>
 						</li>
 						<li class="projects-item projects-item-wrapper">
-							<img
-								class="projects-item__img"
-								src="resources/JK3.jpg"
-								alt="interior-house"
-							/>
+							<picture>
+								<source
+									media="(max-width: 767px)"
+									srcset="resources/projects/JK3_phone.png"
+								/>
+								<source
+									media="(max-width: 1199px)"
+									srcset="resources/projects/JK3_tablet.png"
+								/>
+								<img
+									class="projects-item__img"
+									src="resources/projects/JK3.png"
+									alt="interior-house"
+								/>
+							</picture>
 							<p class="projects-item__text">
 								ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022
 							</p>
@@ -147,7 +154,7 @@
 						<li class="services-item services-item-wrapper">
 							<img
 								class="services-item__img"
-								src="resources/services-1.jpg"
+								src="resources/services/services-1.jpg"
 								alt="plan-and-pencil"
 							/>
 							<p class="services-item__text">
@@ -157,7 +164,7 @@
 						<li class="services-item services-item-wrapper">
 							<img
 								class="services-item__img"
-								src="resources/services-2.jpg"
+								src="resources/services/services-2.jpg"
 								alt="colors"
 							/>
 							<p class="services-item__text">
@@ -167,7 +174,7 @@
 						<li class="services-item services-item-wrapper">
 							<img
 								class="services-item__img"
-								src="resources/services-3.jpg"
+								src="resources/services/services-3.jpg"
 								alt="plan"
 							/>
 							<p class="services-item__text">
@@ -177,7 +184,7 @@
 						<li class="services-item services-item-wrapper">
 							<img
 								class="services-item__img"
-								src="resources/services-4.jpg"
+								src="resources/services/services-4.jpg"
 								alt="factory"
 							/>
 							<p class="services-item__text">

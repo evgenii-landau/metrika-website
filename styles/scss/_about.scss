@@ -1,3 +1,12 @@
+h2 {
+	font-size: 18px;
+	letter-spacing: -0.54px;
+	text-transform: uppercase;
+	line-height: 24.59px;
+
+	color: #121212;
+}
+
 .about {
 	&__text {
 		width: 1040px;
@@ -22,4 +31,38 @@
 	text-decoration: none;
 	background-color: #ad1818;
 	color: #ffffff;
+}
+
+@media (max-width: 1199px) {
+	.about__text {
+		width: 690px;
+		font-size: 35px;
+		line-height: normal;
+		letter-spacing: -1.05px;
+	}
+}
+
+@media (max-width: 767px) {
+	h2 {
+		font-size: 14px;
+		line-height: normal;
+		letter-spacing: -0.42px;
+		text-transform: uppercase;
+	}
+
+	.about__text {
+		margin-top: 20px;
+		width: 100%;
+		font-size: 22px;
+		letter-spacing: -0.66px;
+	}
+
+	.about-btn {
+		width: 100%;
+		padding: 15px 30px;
+		justify-content: center;
+		font-size: 16px;
+		line-height: normal;
+		letter-spacing: -0.48px;
+	}
 }

@@ -46,3 +46,12 @@
 		color: #ffffff;
 	}
 }
+
+@media (max-width: 767px) {
+	.footer__text {
+		width: 287px;
+		font-size: 13px;
+		line-height: normal;
+		letter-spacing: -0.39px;
+	}
+}

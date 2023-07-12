@@ -39,3 +39,10 @@
 .btn:last-child {
 	margin-right: 0px;
 }
+
+@media (max-width: 767px) {
+	.header__logo {
+		margin-right: 20px;
+	}
+	//! Отступы Белые
+}

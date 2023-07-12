@@ -62,3 +62,33 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+
+@media (max-width: 1199px) {
+	.contacts-content__tel {
+		font-size: 45px;
+		line-height: 60px;
+		letter-spacing: -1.35px;
+	}
+
+	.contacts-content__mail {
+		font-size: 45px;
+		line-height: 60px;
+		letter-spacing: -1.35px;
+	}
+}
+
+@media (max-width: 767px) {
+	.contacts-content__tel {
+		width: 100%;
+		font-size: 35px;
+		line-height: 45.621px;
+		letter-spacing: -1.05px;
+	}
+
+	.contacts-content__mail {
+		width: 100%;
+		font-size: 35px;
+		line-height: 45.621px;
+		letter-spacing: -1.05px;
+	}
+}
