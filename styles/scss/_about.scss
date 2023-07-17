@@ -1,19 +1,10 @@
-h2 {
-	font-size: 18px;
-	letter-spacing: -0.54px;
-	text-transform: uppercase;
-	line-height: 24.59px;
-
-	color: #121212;
-}
-
 .about {
 	&__text {
 		width: 1040px;
 		margin-top: 30px;
 		font-size: 45px;
 		letter-spacing: -1.35px;
-		line-height: 61.47px;
+		line-height: normal;
 	}
 
 	&__button {
@@ -37,19 +28,11 @@ h2 {
 	.about__text {
 		width: 690px;
 		font-size: 35px;
-		line-height: normal;
 		letter-spacing: -1.05px;
 	}
 }
 
 @media (max-width: 767px) {
-	h2 {
-		font-size: 14px;
-		line-height: normal;
-		letter-spacing: -0.42px;
-		text-transform: uppercase;
-	}
-
 	.about__text {
 		margin-top: 20px;
 		width: 100%;

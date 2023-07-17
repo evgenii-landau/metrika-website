@@ -1,7 +1,6 @@
 .projects {
 	&__title {
 		margin-bottom: 30px;
-		letter-spacing: -0.54px;
 	}
 
 	&__link-button {
@@ -26,11 +25,6 @@
 .projects-item {
 	&__text {
 		margin: 14px 0px;
-		line-height: 41px;
-		font-size: 30px;
-		letter-spacing: -0.9px;
-
-		color: #121212;
 	}
 
 	&__link {
@@ -44,19 +38,14 @@
 }
 
 .projects-item__img {
-	width: 100%;
-	height: 548px;
+	max-width: 100%;
 }
 
 .projects-item-wrapper {
-	margin-bottom: 90px;
+	margin-bottom: 100px;
 }
 
-@media (max-width: 1199px) {
-	.projects-item__img {
-		height: 450px;
-	}
-
+@media (max-width: 960px) {
 	.projects-item__text {
 		margin: 15px 0px 10px;
 		font-size: 25px;
@@ -65,7 +54,7 @@
 	}
 
 	.projects-item-wrapper {
-		margin-bottom: 80px;
+		margin-bottom: 90px;
 	}
 }
 
@@ -74,10 +63,6 @@
 		margin-bottom: 20px;
 		font-size: 14px;
 		letter-spacing: -0.42px;
-	}
-
-	.projects-item__img {
-		height: 250px;
 	}
 
 	.projects-item__text {
