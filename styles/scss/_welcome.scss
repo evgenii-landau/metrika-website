@@ -8,7 +8,7 @@
 	background-position: 50%;
 }
 
-.welcome__text {
+.welcome__description {
 	width: 430px;
 	position: absolute;
 	left: 40px;
@@ -25,17 +25,17 @@
 		height: 400px;
 	}
 
-	.welcome__text {
+	.welcome__description {
 		left: 42px;
 		bottom: 30px;
 	}
 }
 
 @media (max-width: 767px) {
-	.welcome__text {
+	.welcome__description {
+		width: 312px;
 		left: 15px;
 		bottom: 15px;
-		width: 312px;
 		font-size: 16px;
 		line-height: normal;
 		letter-spacing: -0.48px;

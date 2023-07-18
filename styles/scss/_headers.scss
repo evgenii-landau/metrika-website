@@ -9,6 +9,23 @@ h1 {
 	color: #121212;
 }
 
+h2 {
+	margin-bottom: 30px;
+	font-size: 18px;
+	letter-spacing: -0.54px;
+	text-transform: uppercase;
+	line-height: 24.59px;
+
+	color: #121212;
+}
+
+h3 {
+	line-height: 41px;
+	font-size: 30px;
+	letter-spacing: -0.9px;
+	color: #121212;
+}
+
 @media (max-width: 1199px) {
 	h1 {
 		width: 100%;
@@ -25,29 +42,11 @@ h1 {
 		line-height: 31.621px;
 		letter-spacing: -0.9px;
 	}
-}
 
-h2 {
-	font-size: 18px;
-	letter-spacing: -0.54px;
-	text-transform: uppercase;
-	line-height: 24.59px;
-
-	color: #121212;
-}
-
-@media (max-width: 767px) {
 	h2 {
+		margin-bottom: 20px;
 		font-size: 14px;
 		line-height: normal;
 		letter-spacing: -0.42px;
-		text-transform: uppercase;
 	}
-}
-
-h3 {
-	line-height: 41px;
-	font-size: 30px;
-	letter-spacing: -0.9px;
-	color: #121212;
 }

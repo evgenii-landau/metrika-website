@@ -10,7 +10,7 @@
 		padding-top: 9px;
 	}
 
-	&__text {
+	&__description {
 		margin-top: 86px;
 		font-size: 20px;
 		letter-spacing: -0.6px;
@@ -48,7 +48,7 @@
 }
 
 @media (max-width: 767px) {
-	.footer__text {
+	.footer__description {
 		width: 287px;
 		font-size: 13px;
 		line-height: normal;

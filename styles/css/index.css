@@ -52,7 +52,7 @@
   background-position: 50%;
 }
 
-.welcome__text {
+.welcome__description {
   width: 430px;
   position: absolute;
   left: 40px;
@@ -67,16 +67,16 @@
   .welcome__img {
     height: 400px;
   }
-  .welcome__text {
+  .welcome__description {
     left: 42px;
     bottom: 30px;
   }
 }
 @media (max-width: 767px) {
-  .welcome__text {
+  .welcome__description {
+    width: 312px;
     left: 15px;
     bottom: 15px;
-    width: 312px;
     font-size: 16px;
     line-height: normal;
     letter-spacing: -0.48px;
@@ -87,9 +87,8 @@
     background-image: url(../../resources/main/main-pic-phone.png);
   }
 }
-.about__text {
+.about__description {
   width: 1040px;
-  margin-top: 30px;
   font-size: 45px;
   letter-spacing: -1.35px;
   line-height: normal;
@@ -111,15 +110,14 @@
 }
 
 @media (max-width: 1199px) {
-  .about__text {
+  .about__description {
     width: 690px;
     font-size: 35px;
     letter-spacing: -1.05px;
   }
 }
 @media (max-width: 767px) {
-  .about__text {
-    margin-top: 20px;
+  .about__description {
     width: 100%;
     font-size: 22px;
     letter-spacing: -0.66px;
@@ -132,9 +130,6 @@
     line-height: normal;
     letter-spacing: -0.48px;
   }
-}
-.projects__title {
-  margin-bottom: 30px;
 }
 .projects__link-button {
   padding: 54px 0px;
@@ -154,7 +149,7 @@
   color: #ffffff;
 }
 
-.projects-item__text {
+.projects-item__description {
   margin: 14px 0px;
 }
 .projects-item__link {
@@ -173,24 +168,22 @@
   margin-bottom: 100px;
 }
 
-@media (max-width: 960px) {
-  .projects-item__text {
+@media (max-width: 1199px) {
+  .projects-item__description {
     margin: 15px 0px 10px;
     font-size: 25px;
     line-height: normal;
     letter-spacing: -0.75px;
   }
   .projects-item-wrapper {
-    margin-bottom: 90px;
+    margin-bottom: 80px;
+  }
+  .projects-item-wrapper:last-child {
+    margin-bottom: 100px;
   }
 }
 @media (max-width: 767px) {
-  .projects__title {
-    margin-bottom: 20px;
-    font-size: 14px;
-    letter-spacing: -0.42px;
-  }
-  .projects-item__text {
+  .projects-item__description {
     font-size: 18px;
     line-height: normal;
     letter-spacing: -0.54px;
@@ -209,6 +202,9 @@
   }
   .projects-item-wrapper {
     margin-bottom: 50px;
+  }
+  .projects-item-wrapper:last-child {
+    margin-bottom: 60px;
   }
 }
 .services {
@@ -230,8 +226,6 @@
   background: #ad1818;
 }
 .services__title {
-  margin-bottom: 34px;
-  letter-spacing: -0.54px;
   color: #fff;
 }
 .services__columns {
@@ -277,9 +271,6 @@
   .services {
     padding-bottom: 120px;
   }
-  .services__title {
-    margin-bottom: 30px;
-  }
   .services__price {
     position: absolute;
     top: 32px;
@@ -299,10 +290,7 @@
 }
 @media (max-width: 600px) {
   .services {
-    padding-bottom: 80px;
-  }
-  .services__title {
-    margin-bottom: 20px;
+    padding: 80px 0;
   }
   .services__price {
     position: absolute;
@@ -340,7 +328,7 @@
   background-size: cover;
   background-position: 20%;
 }
-.room__text {
+.room__description {
   width: 443px;
   position: absolute;
   bottom: 60px;
@@ -354,7 +342,7 @@
   .room__img {
     height: 536px;
   }
-  .room__text {
+  .room__description {
     width: 375px;
     left: 50px;
     bottom: 80px;
@@ -368,7 +356,7 @@
     height: 408px;
     background-position: 50%;
   }
-  .room__text {
+  .room__description {
     left: 13px;
     bottom: 60px;
     width: 285px;
@@ -385,13 +373,6 @@
   position: relative;
 }
 
-.contacts-content__title {
-  margin-bottom: 32px;
-  font-size: 18px;
-  letter-spacing: -0.54px;
-  text-transform: uppercase;
-  color: #121212;
-}
 .contacts-content__tel {
   margin-bottom: 30px;
   display: block;
@@ -472,7 +453,7 @@
   margin-right: 7px;
   padding-top: 9px;
 }
-.footer__text {
+.footer__description {
   margin-top: 86px;
   font-size: 20px;
   letter-spacing: -0.6px;
@@ -503,7 +484,7 @@
 }
 
 @media (max-width: 767px) {
-  .footer__text {
+  .footer__description {
     width: 287px;
     font-size: 13px;
     line-height: normal;
@@ -517,6 +498,22 @@ h1 {
   font-size: 60px;
   line-height: 60px;
   letter-spacing: -1.8px;
+  color: #121212;
+}
+
+h2 {
+  margin-bottom: 30px;
+  font-size: 18px;
+  letter-spacing: -0.54px;
+  text-transform: uppercase;
+  line-height: 24.59px;
+  color: #121212;
+}
+
+h3 {
+  line-height: 41px;
+  font-size: 30px;
+  letter-spacing: -0.9px;
   color: #121212;
 }
 
@@ -535,35 +532,88 @@ h1 {
     line-height: 31.621px;
     letter-spacing: -0.9px;
   }
-}
-h2 {
-  font-size: 18px;
-  letter-spacing: -0.54px;
-  text-transform: uppercase;
-  line-height: 24.59px;
-  color: #121212;
-}
-
-@media (max-width: 767px) {
   h2 {
+    margin-bottom: 20px;
     font-size: 14px;
     line-height: normal;
     letter-spacing: -0.42px;
-    text-transform: uppercase;
   }
 }
-h3 {
-  line-height: 41px;
-  font-size: 30px;
-  letter-spacing: -0.9px;
-  color: #121212;
-}
-
-.reviews__title {
-  margin-top: 150px;
+.reviews {
+  margin: 150px 0;
 }
 .reviews__columns {
   display: flex;
+  flex-wrap: wrap;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
+  row-gap: 51px;
+}
+.reviews__item {
+  width: 530px;
+}
+.reviews__client {
+  margin-bottom: 14px;
+  font-size: 45px;
+  line-height: normal;
+  letter-spacing: -1.35px;
+  color: #000;
+}
+.reviews__description {
+  font-size: 22px;
+  line-height: normal;
+  letter-spacing: -0.66px;
+  color: #000;
+}
+.reviews__description_size {
+  width: 861px;
+}
+
+@media (max-width: 1199px) {
+  .reviews {
+    margin: 120px 0;
+  }
+  .reviews__columns {
+    -moz-column-gap: 10px;
+         column-gap: 10px;
+    row-gap: 80px;
+  }
+  .reviews__item {
+    width: calc(50% - 5px);
+  }
+  .reviews__client {
+    font-size: 35px;
+    letter-spacing: -1.05px;
+  }
+  .reviews__description {
+    font-size: 20px;
+    letter-spacing: -0.6px;
+  }
+  .reviews__description_size {
+    width: 694px;
+  }
+}
+@media (max-width: 767px) {
+  .reviews {
+    margin: 80px 0;
+  }
+  .reviews__columns {
+    flex-direction: column;
+  }
+  .reviews__item {
+    width: 100%;
+  }
+  .reviews__client {
+    font-size: 25px;
+    letter-spacing: -0.75px;
+  }
+  .reviews__description {
+    font-size: 16px;
+    letter-spacing: -0.48px;
+  }
+  .reviews__description_size {
+    width: 100%;
+  }
 }
 html {
   scroll-behavior: smooth;

@@ -1,7 +1,6 @@
 .about {
-	&__text {
+	&__description {
 		width: 1040px;
-		margin-top: 30px;
 		font-size: 45px;
 		letter-spacing: -1.35px;
 		line-height: normal;
@@ -25,7 +24,7 @@
 }
 
 @media (max-width: 1199px) {
-	.about__text {
+	.about__description {
 		width: 690px;
 		font-size: 35px;
 		letter-spacing: -1.05px;
@@ -33,8 +32,7 @@
 }
 
 @media (max-width: 767px) {
-	.about__text {
-		margin-top: 20px;
+	.about__description {
 		width: 100%;
 		font-size: 22px;
 		letter-spacing: -0.66px;

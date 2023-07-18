@@ -19,8 +19,6 @@
 	}
 
 	&__title {
-		margin-bottom: 34px;
-		letter-spacing: -0.54px;
 		color: #fff;
 	}
 
@@ -74,10 +72,6 @@
 		padding-bottom: 120px;
 	}
 
-	.services__title {
-		margin-bottom: 30px;
-	}
-
 	.services__price {
 		position: absolute;
 		top: 32px;
@@ -100,11 +94,7 @@
 
 @media (max-width: 600px) {
 	.services {
-		padding-bottom: 80px;
-	}
-
-	.services__title {
-		margin-bottom: 20px;
+		padding: 80px 0;
 	}
 
 	.services__price {
