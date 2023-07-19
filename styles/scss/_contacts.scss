@@ -1,18 +1,21 @@
+.section-contacts {
+}
+
 .contacts {
-	margin-top: 186px;
-}
+	&__content {
+		margin-top: 74px;
+		display: flex;
+		flex-wrap: wrap;
+		column-gap: 104px;
+	}
 
-.contacts-content-wrapper {
-	position: relative;
-}
+	&__item {
+	}
 
-.contacts-content {
 	&__tel {
-		margin-bottom: 30px;
-		display: block;
-		width: 473px;
+		position: relative;
+		width: 472px;
 		font-size: 60px;
-		line-height: 60px;
 		letter-spacing: -0.9px;
 
 		text-decoration: none;
@@ -20,10 +23,9 @@
 	}
 
 	&__mail {
-		display: block;
+		position: relative;
 		width: 412px;
 		font-size: 60px;
-		line-height: 60px;
 		letter-spacing: -1.8px;
 		text-decoration: none;
 
@@ -31,55 +33,36 @@
 	}
 }
 
-.contacts-content__tel:hover {
+.contacts__tel:hover {
 	border-bottom: 2px solid rgba(0, 0, 0, 0.5);
 	opacity: 0.5;
 }
 
-.contacts-content__mail:hover {
+.contacts__mail:hover {
 	border-bottom: 2px solid rgba(0, 0, 0, 0.5);
 	opacity: 0.5;
 }
 
-.contacts-content::before {
-	position: absolute;
-	top: -33px;
-	left: -4px;
+.contacts__tel::before {
 	content: '';
 	display: block;
+	position: absolute;
+	top: -30px;
 	width: 24px;
 	height: 24px;
-	background-image: url(../../resources/phone.png);
+	background-image: url(../../resources/contacts/phone.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
-@media (max-width: 1199px) {
-	.contacts-content__tel {
-		font-size: 45px;
-		line-height: 60px;
-		letter-spacing: -1.35px;
-	}
-
-	.contacts-content__mail {
-		font-size: 45px;
-		line-height: 60px;
-		letter-spacing: -1.35px;
-	}
-}
-
-@media (max-width: 767px) {
-	.contacts-content__tel {
-		width: 100%;
-		font-size: 35px;
-		line-height: 45.621px;
-		letter-spacing: -1.05px;
-	}
-
-	.contacts-content__mail {
-		width: 100%;
-		font-size: 35px;
-		line-height: 45.621px;
-		letter-spacing: -1.05px;
-	}
+.contacts__mail::before {
+	content: '';
+	display: block;
+	position: absolute;
+	top: -30px;
+	width: 24px;
+	height: 24px;
+	background-image: url(../../resources/contacts/mail.png);
+	background-size: cover;
+	background-repeat: no-repeat;
 }
