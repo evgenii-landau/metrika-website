@@ -1,14 +1,17 @@
+.nav-wrapper-footer {
+	display: flex;
+	justify-content: center;
+}
+
+.btn {
+	color: #ffffff;
+}
+
 .footer {
-	margin: auto;
 	padding-top: 60px;
 	padding-bottom: 30px;
 	text-align: center;
 	background-color: #121212;
-
-	&__nav {
-		margin-right: 7px;
-		padding-top: 9px;
-	}
 
 	&__description {
 		margin-top: 86px;
@@ -21,37 +24,16 @@
 	}
 }
 
-.btn-footer:hover {
-	opacity: 0.5;
-}
-
-.nav {
-	&__button-about {
-		margin-right: 49px;
-		color: #ffffff;
-	}
-
-	&__button-projects {
-		margin-right: 56px;
-		color: #ffffff;
-	}
-
-	&__button-services {
-		margin-right: 51px;
-		color: #ffffff;
-	}
-
-	&__button-contacts {
-		margin-right: 4px;
-		color: #ffffff;
-	}
-}
-
 @media (max-width: 767px) {
 	.footer__description {
-		width: 287px;
+		margin-top: 41px;
 		font-size: 13px;
 		line-height: normal;
 		letter-spacing: -0.39px;
+	}
+
+	.footer {
+		padding-top: 30px;
+		padding-bottom: 26px;
 	}
 }

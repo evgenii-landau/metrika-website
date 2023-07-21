@@ -1,9 +1,10 @@
 .header {
 	margin-top: 30px;
+	height: 34px;
 
 	&__logo {
 		display: inline-block;
-		margin-right: 553px;
+		margin-right: 569px;
 	}
 }
 
@@ -12,37 +13,37 @@
 	height: 21.42px;
 }
 
-.nav-wrapper {
+.nav-wrapper-header {
 	display: inline-block;
 }
 
 .nav {
-	&__button {
-		margin-right: 58px;
+	display: flex;
+	justify-content: space-between;
+	width: 450px;
+
+	&__link {
+		font-size: 18px;
+		letter-spacing: -0.54px;
+		text-transform: uppercase;
+		line-height: 24px;
+
+		padding: 5px;
+		text-decoration: none;
 		color: #121212;
 	}
-}
 
-.btn {
-	font-size: 18px;
-	letter-spacing: -0.54px;
-	text-transform: uppercase;
-	text-decoration: none;
-	line-height: 24px;
-}
+	&__link:hover {
+		opacity: 0.5;
+	}
 
-.btn:hover {
-	border-bottom: 1px solid rgba(0, 0, 0, 0.5);
-	opacity: 0.5;
-}
-
-.btn:last-child {
-	margin-right: 0px;
+	&__link_active:hover {
+		border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+	}
 }
 
 @media (max-width: 767px) {
 	.header__logo {
 		margin-right: 20px;
 	}
-	//! Отступы Белые
 }

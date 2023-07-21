@@ -1,4 +1,4 @@
-.section-contacts {
+.contacts-section {
 }
 
 .contacts {
@@ -14,7 +14,6 @@
 
 	&__tel {
 		position: relative;
-		width: 472px;
 		font-size: 60px;
 		letter-spacing: -0.9px;
 
@@ -22,15 +21,34 @@
 		color: #121212;
 	}
 
-	&__mail {
+	&__telegram {
 		position: relative;
-		width: 412px;
 		font-size: 60px;
 		letter-spacing: -1.8px;
-		text-decoration: none;
 
+		text-decoration: none;
 		color: #121212;
 	}
+}
+
+.contacts__tel::before,
+.contacts__telegram::before {
+	content: '';
+	display: block;
+	position: absolute;
+	top: -30px;
+	width: 24px;
+	height: 24px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.contacts__tel::before {
+	background-image: url(../../resources/contacts/phone.png);
+}
+
+.contacts__telegram::before {
+	background-image: url(../../resources/contacts/telegram.png);
 }
 
 .contacts__tel:hover {
@@ -38,31 +56,23 @@
 	opacity: 0.5;
 }
 
-.contacts__mail:hover {
+.contacts__telegram:hover {
 	border-bottom: 2px solid rgba(0, 0, 0, 0.5);
 	opacity: 0.5;
 }
 
-.contacts__tel::before {
-	content: '';
-	display: block;
-	position: absolute;
-	top: -30px;
-	width: 24px;
-	height: 24px;
-	background-image: url(../../resources/contacts/phone.png);
-	background-size: cover;
-	background-repeat: no-repeat;
+@media (max-width: 1199px) {
+	.contacts__tel,
+	.contacts__telegram {
+		font-size: 45px;
+		letter-spacing: -1.35px;
+	}
 }
 
-.contacts__mail::before {
-	content: '';
-	display: block;
-	position: absolute;
-	top: -30px;
-	width: 24px;
-	height: 24px;
-	background-image: url(../../resources/contacts/mail.png);
-	background-size: cover;
-	background-repeat: no-repeat;
+@media (max-width: 767px) {
+	.contacts__content {
+		flex-direction: column;
+		row-gap: 70px;
+		margin-top: 74px;
+	}
 }
