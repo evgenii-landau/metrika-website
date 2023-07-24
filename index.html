@@ -18,15 +18,22 @@
 	<body>
 		<header class="header">
 			<div class="container">
-				<a class="header__logo logo" href="/"><img src="resources/Метрика.svg" alt="logo-company" /></a>
-				<div class="nav-wrapper-header">
-					<nav class="nav">
-						<a class="nav__link nav__link_active" href="#about">о нас</a>
-						<a class="nav__link nav__link_active" href="#projects">проекты</a>
-						<a class="nav__link nav__link_active" href="#services">услуги</a>
-						<a class="nav__link nav__link_active" href="#contacts">контакты</a>
-					</nav>
+				<div class="header__body">
+					<div class="header__logo"></div>
+					<div class="nav-wrapper-header">
+						<nav class="nav">
+							<a class="nav__link nav__link_active" href="#about">о нас</a>
+							<a class="nav__link nav__link_active" href="#projects">проекты</a>
+							<a class="nav__link nav__link_active" href="#services">услуги</a>
+							<a class="nav__link nav__link_active" href="#contacts">контакты</a>
+						</nav>
+					</div>
+					<div class="burger-btn js-burger-btn"></div>
 				</div>
+			</div>
+
+			<div class="burger js-burger">
+				<div class="burger__content js-burger__content"></div>
 			</div>
 		</header>
 
@@ -89,13 +96,14 @@
 							<a class="projects-item__link" href="!=">Подробнее →</a>
 						</li>
 					</ul>
-					<a class="projects__link-button" href="!=">Смотреть все проекты </a>
+					<a class="full-width-button" href="!=">Смотреть все проекты </a>
 				</div>
 			</section>
 
 			<section class="services">
 				<div class="container">
 					<h2 class="services__title" id="services">Услуги</h2>
+
 					<ul class="services__columns">
 						<li class="services__item">
 							<picture>
@@ -153,7 +161,24 @@
 							<div class="services__price">5% от стоимости</div>
 						</li>
 					</ul>
-					<a class="services__btn" href="!=">Заказать услугу</a>
+
+					<button class="full-width-button full-width-button_style js-btn">Заказать услугу</button>
+
+					<div class="projects__popup js-popup">
+						<div class="projects__popup-content">
+							<div class="projects__popup-close-btn"></div>
+							<div class="popup-content-wrapper">
+								<p class="projects__popup-title">Заказать услугу</p>
+								<p class="projects__popup-subtitle">
+									Заполните форму, мы свяжемся с вами в течение суток
+								</p>
+								<input class="projects__popup-input" type="text" placeholder="Имя" />
+								<input class="projects__popup-input" type="text" placeholder="Электронная почта" />
+								<input class="projects__popup-input" type="text" placeholder="Номер телефона" />
+								<button class="projects__popup-button">Отправить</button>
+							</div>
+						</div>
+					</div>
 				</div>
 			</section>
 
@@ -269,5 +294,7 @@
 		</footer>
 
 		<script src="js/gallery.js"></script>
+		<script src="js/popup.js"></script>
+		<script src="js/burger.js"></script>
 	</body>
 </html>
