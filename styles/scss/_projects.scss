@@ -1,20 +1,3 @@
-.full-width-button {
-	display: flex;
-	justify-content: center;
-	padding: 54px 0px;
-	border-radius: 5px;
-	border: 1px solid #ad1818;
-	font-size: 30px;
-	letter-spacing: -0.9px;
-	line-height: 41px;
-	text-decoration: none;
-	color: #ad1818;
-}
-.full-width-button:hover {
-	background-color: #ad1818;
-	color: #ffffff;
-}
-
 .projects-item {
 	&__description {
 		margin: 14px 0px;
@@ -36,112 +19,6 @@
 
 .projects-item-wrapper {
 	margin-bottom: 100px;
-}
-
-.projects {
-	&__popup {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		position: fixed;
-		top: 0;
-		left: 0;
-		padding: 7px;
-		width: 100%;
-		height: 100%;
-
-		background-color: rgba(0, 0, 0, 0.4);
-		opacity: 0;
-		visibility: hidden;
-		transition: all 0.3s ease;
-	}
-
-	&__popup-content {
-		width: 777px;
-		height: 708px;
-		max-height: 100%;
-		overflow-y: scroll;
-		background-color: #ffffff;
-		border-radius: 10px;
-	}
-
-	&__popup-close-btn {
-		background-image: url(../../resources/projects/popup-close.png);
-		margin: 32px 34px 0 670px;
-		max-width: 67px;
-		width: 50px;
-		height: 50px;
-		cursor: pointer;
-	}
-
-	&__popup-title {
-		margin-bottom: 5px;
-		text-align: center;
-		font-size: 45px;
-		line-height: normal;
-		letter-spacing: -1.35px;
-
-		color: #000;
-	}
-
-	&__popup-subtitle {
-		text-align: center;
-		font-size: 18px;
-		line-height: normal;
-		letter-spacing: -0.54px;
-
-		color: #000;
-	}
-
-	&__popup-input {
-		display: flex;
-		width: 620px;
-		margin-top: 60px;
-		font-size: 25px;
-		line-height: normal;
-		letter-spacing: -0.75px;
-		border: none;
-		padding-bottom: 5px;
-
-		border-bottom: 1px solid #000;
-	}
-
-	&__popup-input:focus {
-		outline: none;
-	}
-
-	&__popup-input:hover {
-		opacity: 0.5;
-	}
-
-	&__popup-button {
-		display: flex;
-		width: 100%;
-		justify-content: center;
-		margin-top: 90px;
-		padding: 20px 40px;
-		font-size: 20px;
-		line-height: normal;
-		letter-spacing: -0.6px;
-
-		color: #fff;
-		background-color: #ad1818;
-		border-radius: 5px;
-		cursor: pointer;
-	}
-}
-
-.popup-content-wrapper {
-	padding: 12px 74px 86px 55px;
-}
-
-.popup_open {
-	opacity: 1;
-	visibility: visible;
-}
-
-.body_fixed {
-	overflow: hidden;
 }
 
 @media (max-width: 1199px) {
@@ -172,14 +49,6 @@
 		font-size: 16px;
 		line-height: normal;
 		letter-spacing: -0.48px;
-	}
-
-	.full-width-button {
-		height: 100px;
-		padding: 33px 0px;
-		font-size: 22px;
-		line-height: normal;
-		letter-spacing: -0.66px;
 	}
 
 	.projects-item-wrapper {

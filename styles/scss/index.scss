@@ -9,6 +9,11 @@
 @import 'headers';
 @import 'reviews';
 @import 'gallery';
+@import 'button';
+@import 'popup';
+@import 'order';
+@import 'inputs';
+@import 'burger';
 
 html {
 	scroll-behavior: smooth;
@@ -26,6 +31,15 @@ section {
 .container {
 	width: 1150px;
 	margin: 0 auto;
+}
+
+button {
+	font-family: inherit;
+	cursor: pointer;
+}
+
+input {
+	font-family: inherit;
 }
 
 @media (max-width: 1199px) {

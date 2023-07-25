@@ -17,23 +17,40 @@
 	</head>
 	<body>
 		<header class="header">
-			<div class="container">
-				<div class="header__body">
-					<div class="header__logo"></div>
-					<div class="nav-wrapper-header">
-						<nav class="nav">
-							<a class="nav__link nav__link_active" href="#about">о нас</a>
-							<a class="nav__link nav__link_active" href="#projects">проекты</a>
-							<a class="nav__link nav__link_active" href="#services">услуги</a>
-							<a class="nav__link nav__link_active" href="#contacts">контакты</a>
-						</nav>
-					</div>
-					<div class="burger-btn js-burger-btn"></div>
-				</div>
-			</div>
-
+			<img class="logo" src="/resources/header/logo-desctop-tablet.png" alt="Logo Metrika company" />
+			<nav class="nav nav_header">
+				<a class="nav__link nav__link_active" href="#about">о нас</a>
+				<a class="nav__link nav__link_active" href="#projects">проекты</a>
+				<a class="nav__link nav__link_active" href="#services">услуги</a>
+				<a class="nav__link nav__link_active" href="#contacts">контакты</a>
+			</nav>
+			<button class="burger__btn js-burger-btn"></button>
 			<div class="burger js-burger">
-				<div class="burger__content js-burger__content"></div>
+				<div class="burger__content">
+					<img class="logo-burger" src="/resources/header/logo-burger.png" alt="Logo Metrika company" />
+
+					<nav class="nav">
+						<ul class="nav__burger">
+							<li>
+								<a class="nav__link nav__link_burger" href="#about">о нас</a>
+							</li>
+							<li>
+								<a class="nav__link nav__link_burger" href="#projects">проекты</a>
+							</li>
+							<li>
+								<a class="nav__link nav__link_burger" href="#services">услуги</a>
+							</li>
+							<li>
+								<a class="nav__link nav__link_burger" href="#contacts">контакты</a>
+							</li>
+						</ul>
+					</nav>
+					<div class="burger__feeback js-burger__content">
+						<p class="burger__feedback-title">для связи:</p>
+						<a class="burger__feedback-phone" href="tel:+79358954535">+7 935 895-45-35</a>
+						<a class="burger__feedback-telegram" target="_blank" href="//t.me/jack_landau">jack_landau</a>
+					</div>
+				</div>
 			</div>
 		</header>
 
@@ -162,20 +179,30 @@
 						</li>
 					</ul>
 
-					<button class="full-width-button full-width-button_style js-btn">Заказать услугу</button>
+					<button class="full-width-button full-width-button-services js-btn">Заказать услугу</button>
 
-					<div class="projects__popup js-popup">
-						<div class="projects__popup-content">
-							<div class="projects__popup-close-btn"></div>
-							<div class="popup-content-wrapper">
-								<p class="projects__popup-title">Заказать услугу</p>
-								<p class="projects__popup-subtitle">
-									Заполните форму, мы свяжемся с вами в течение суток
-								</p>
-								<input class="projects__popup-input" type="text" placeholder="Имя" />
-								<input class="projects__popup-input" type="text" placeholder="Электронная почта" />
-								<input class="projects__popup-input" type="text" placeholder="Номер телефона" />
-								<button class="projects__popup-button">Отправить</button>
+					<div class="popup js-popup">
+						<div class="popup__content js-popup__content">
+							<button class="popup__close-btn js-popup__close-btn"></button>
+							<div class="order__content-wrapper">
+								<p class="order__title">Заказать услугу</p>
+								<p class="order__subtitle">Заполните форму, мы свяжемся с вами в течение суток</p>
+								<form class="order__form">
+									<input class="input order__input" type="text" name="name" placeholder="Имя" />
+									<input
+										class="input order__input"
+										type="email"
+										name="email"
+										placeholder="Электронная почта"
+									/>
+									<input
+										class="input order__input"
+										type="tel"
+										name="tel"
+										placeholder="Номер телефона"
+									/>
+								</form>
+								<button class="full-width-button full-width-button_popup">Отправить</button>
 							</div>
 						</div>
 					</div>
@@ -193,8 +220,9 @@
 								было очень приятно с Вами работать! Спасибо за Ваше умение правильно слышать пожелания
 								своих клиентов и выполнять работу, которая превосходит все ожидания! Мы даже не
 								надеялись, что на 34 кв.м. кто-то сможет нам грамотно разместить все, что мы хотим и
-								даже больше! <br /><br />Вам удалось это просто превосходно! Нам лишь осталось воплотить
-								красоту, которую Вы нам создали в жизнь и поделиться с Вами результатом!
+								даже больше!
+								<br /><br />Вам удалось это просто превосходно! Нам лишь осталось воплотить красоту,
+								которую Вы нам создали в жизнь и поделиться с Вами результатом!
 							</p>
 						</li>
 
@@ -204,9 +232,9 @@
 								Спасибо большое за такой классный проект! Все стильно, круто, продумано! Очень приятно
 								было с вами работать! Спасибо, что терпели наши «хочу это, хочу то» в поисках идеального
 								для нас ремонта. Здорово, что мы нашли такого основательного, ответственного и
-								внимательного к деталям дизайнера! <br /><br />Хочется скорее реализовать проект и
-								наслаждаться современной, функциональной и красивой квартирой! Будем рекомендовать Вас
-								всем друзьям и знакомым!
+								внимательного к деталям дизайнера!
+								<br /><br />Хочется скорее реализовать проект и наслаждаться современной, функциональной
+								и красивой квартирой! Будем рекомендовать Вас всем друзьям и знакомым!
 							</p>
 						</li>
 
@@ -264,7 +292,7 @@
 				</div>
 			</section>
 
-			<section class="contacts-section">
+			<section id="contacts" class="contacts-section">
 				<div class="container">
 					<h2>Контакты</h2>
 					<div class="contacts__content">

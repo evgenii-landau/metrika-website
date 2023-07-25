@@ -1,0 +1,29 @@
+.order {
+	&__content-wrapper {
+		padding: 7px 74px 83px 55px;
+	}
+
+	&__title {
+		margin-bottom: 5px;
+		text-align: center;
+		font-size: 45px;
+		line-height: normal;
+		letter-spacing: -1.35px;
+
+		color: #000;
+	}
+
+	&__subtitle {
+		text-align: center;
+		font-size: 18px;
+		line-height: normal;
+		letter-spacing: -0.54px;
+
+		color: #000;
+	}
+
+	&__input {
+		width: 100%;
+		margin-top: 55px;
+	}
+}
