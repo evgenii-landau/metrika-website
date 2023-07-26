@@ -16,3 +16,10 @@
 .input::placeholder {
 	opacity: 0.5;
 }
+
+@media (max-width: 767px) {
+	.input {
+		font-size: 18px;
+		letter-spacing: -0.54px;
+	}
+}

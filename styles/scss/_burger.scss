@@ -11,6 +11,21 @@
 	opacity: 0;
 	visibility: hidden;
 
+	&__content {
+		position: relative;
+		padding: 80px 88px 65px 30px;
+		width: 274px;
+		height: 100%;
+		overflow-y: auto;
+		background-color: #fff;
+		transition: transform 0.3s linear;
+		transform: translateX(100%);
+	}
+
+	&__logo {
+		margin-bottom: 50px;
+	}
+
 	&__feedback-title {
 		font-size: 16px;
 		line-height: normal;
@@ -32,31 +47,12 @@
 
 	&__btn {
 		display: none;
+		z-index: 2;
 	}
 }
 
-.burger_open {
-	z-index: 1;
-	opacity: 1;
-	visibility: visible;
-}
-
-.burger__content {
-	position: relative;
-	padding: 80px 88px 65px 30px;
-	width: 30%;
-	height: 100%;
-	background-color: #fff;
-	transition: transform 0.3s linear;
-	transform: translateX(100%);
-}
-
-.body_fixed {
-	overflow: hidden;
-}
-
-.logo-burger {
-	margin-bottom: 50px;
+.burger_open .burger__content {
+	transform: translateX(0);
 }
 
 .nav {
@@ -76,6 +72,16 @@
 	}
 }
 
+.burger_open {
+	z-index: 1;
+	opacity: 1;
+	visibility: visible;
+}
+
+.body_fixed {
+	overflow: hidden;
+}
+
 @media (max-width: 1199px) {
 	.burger__btn {
 		display: block;
@@ -83,15 +89,6 @@
 		position: relative;
 		background: none;
 		border: none;
-	}
-
-	.burger-btn_open {
-		content: '';
-		width: 34px;
-		height: 34px;
-		z-index: 2;
-		background-image: url(../../resources/projects/popup-close.png);
-		background-size: cover;
 	}
 
 	.burger__btn::before,
@@ -105,8 +102,29 @@
 		background-color: black;
 	}
 
+	.burger-btn_open::after,
+	.burger-btn_open::before {
+		display: none;
+	}
+
 	.burger__btn::after {
 		top: 6px;
 		width: 31px;
+	}
+
+	.burger-btn_open {
+		position: absolute;
+		top: 20px;
+		right: 20px;
+		height: 34px;
+		width: 34px;
+		background-image: url(../../resources/burger/burger-close.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+}
+
+@media (max-width: 767px) {
+	.popup__close-btn {
 	}
 }

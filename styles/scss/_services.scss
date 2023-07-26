@@ -5,19 +5,6 @@
 	background-color: #121212;
 	color: #fff;
 
-	&__price {
-		position: absolute;
-		top: 30px;
-		left: 30px;
-		padding: 5px 21px;
-		font-size: 22px;
-		line-height: normal;
-		letter-spacing: -0.66px;
-
-		border-radius: 5px;
-		background: #ad1818;
-	}
-
 	&__title {
 		color: #fff;
 	}
@@ -42,6 +29,19 @@
 	&__description {
 		margin-top: 25px;
 		color: #ffffff;
+	}
+
+	&__price {
+		position: absolute;
+		top: 30px;
+		left: 30px;
+		padding: 5px 21px;
+		font-size: 22px;
+		line-height: normal;
+		letter-spacing: -0.66px;
+
+		border-radius: 5px;
+		background: #ad1818;
 	}
 }
 
@@ -75,14 +75,14 @@
 		padding: 80px 0;
 	}
 
+	.services__item {
+		width: 100%;
+	}
+
 	.services__columns {
 		flex-direction: column;
 		row-gap: 50px;
 		margin-bottom: 60px;
-	}
-
-	.services__item {
-		width: 100%;
 	}
 
 	.services__description {

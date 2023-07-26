@@ -1,6 +1,6 @@
 .order {
 	&__content-wrapper {
-		padding: 7px 74px 83px 55px;
+		padding: 94px 74px 86px 59px;
 	}
 
 	&__title {
@@ -25,5 +25,17 @@
 	&__input {
 		width: 100%;
 		margin-top: 55px;
+	}
+}
+
+@media (max-width: 767px) {
+	.order__title {
+		font-size: 25px;
+		letter-spacing: -0.75px;
+	}
+
+	.order__subtitle {
+		font-size: 14px;
+		letter-spacing: -0.42px;
 	}
 }

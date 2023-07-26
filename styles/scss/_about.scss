@@ -5,22 +5,6 @@
 		letter-spacing: -1.35px;
 		line-height: normal;
 	}
-
-	&__button {
-		margin-top: 30px;
-		display: inline-flex;
-	}
-}
-
-.about-btn {
-	padding: 20px 40px;
-	font-size: 20px;
-	letter-spacing: -0.6px;
-	line-height: 27.32px;
-	border-radius: 5px;
-	text-decoration: none;
-	background-color: #ad1818;
-	color: #ffffff;
 }
 
 @media (max-width: 1199px) {
@@ -36,14 +20,5 @@
 		width: 100%;
 		font-size: 22px;
 		letter-spacing: -0.66px;
-	}
-
-	.about-btn {
-		width: 100%;
-		padding: 15px 30px;
-		justify-content: center;
-		font-size: 16px;
-		line-height: normal;
-		letter-spacing: -0.48px;
 	}
 }

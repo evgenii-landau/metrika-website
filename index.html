@@ -19,17 +19,27 @@
 		<header class="header">
 			<img class="logo" src="/resources/header/logo-desctop-tablet.png" alt="Logo Metrika company" />
 			<nav class="nav nav_header">
-				<a class="nav__link nav__link_active" href="#about">о нас</a>
-				<a class="nav__link nav__link_active" href="#projects">проекты</a>
-				<a class="nav__link nav__link_active" href="#services">услуги</a>
-				<a class="nav__link nav__link_active" href="#contacts">контакты</a>
+				<ul class="nav__header">
+					<li>
+						<a class="nav__link nav__link_active" href="#about">о нас</a>
+					</li>
+					<li>
+						<a class="nav__link nav__link_active" href="#projects">проекты</a>
+					</li>
+					<li>
+						<a class="nav__link nav__link_active" href="#services">услуги</a>
+					</li>
+					<li>
+						<a class="nav__link nav__link_active" href="#contacts">контакты</a>
+					</li>
+				</ul>
 			</nav>
 			<button class="burger__btn js-burger-btn"></button>
+
 			<div class="burger js-burger">
 				<div class="burger__content">
-					<img class="logo-burger" src="/resources/header/logo-burger.png" alt="Logo Metrika company" />
-
-					<nav class="nav">
+					<img class="burger__logo" src="/resources/header/logo-burger.png" alt="Logo Metrika company" />
+					<nav>
 						<ul class="nav__burger">
 							<li>
 								<a class="nav__link nav__link_burger" href="#about">о нас</a>
@@ -75,7 +85,7 @@
 						обращаются за уютом, индивидуальными решениями и практичностью. Находим конструктивные решения
 						для каждого интерьера, вплоть до каждой детали — нацелены на результат.
 					</p>
-					<a class="about__button about-btn" href="!=">Посмотреть услуги</a>
+					<a class="about__button" href="!=">Посмотреть услуги</a>
 				</div>
 			</section>
 
@@ -255,7 +265,7 @@
 				</div>
 			</section>
 
-			<section class="gallery-section">
+			<section>
 				<div class="gallery">
 					<div class="container">
 						<p class="gallery__title">галерея проектов</p>
@@ -292,16 +302,18 @@
 				</div>
 			</section>
 
-			<section id="contacts" class="contacts-section">
+			<section id="contacts">
 				<div class="container">
 					<h2>Контакты</h2>
 					<div class="contacts__content">
-						<div class="contacts__item">
-							<a class="contacts__tel" href="tel:+79358954535">+7 935 895-45-35</a>
-						</div>
-						<div class="contacts__item">
-							<a class="contacts__telegram" target="_blank" href="//t.me/jack_landau">jack_landau</a>
-						</div>
+						<ul class="contacts__list">
+							<li class="contcats__link">
+								<a class="contacts__tel" href="tel:+79358954535">+7 935 895-45-35</a>
+							</li>
+							<li class="contcats__link">
+								<a class="contacts__telegram" target="_blank" href="//t.me/jack_landau">jack_landau</a>
+							</li>
+						</ul>
 					</div>
 				</div>
 			</section>
@@ -311,10 +323,20 @@
 			<div class="container">
 				<div class="nav-wrapper-footer">
 					<nav class="nav">
-						<a href="#about" class="nav__link btn">о нас</a>
-						<a href="#projects" class="nav__link btn">проекты</a>
-						<a href="#services" class="nav__link btn">услуги</a>
-						<a href="#contacts" class="nav__link btn">контакты</a>
+						<ul class="nav__footer">
+							<li>
+								<a href="#about" class="nav__link nav__link_font">о нас</a>
+							</li>
+							<li>
+								<a href="#projects" class="nav__link nav__link_font">проекты</a>
+							</li>
+							<li>
+								<a href="#services" class="nav__link nav__link_font">услуги</a>
+							</li>
+							<li>
+								<a href="#contacts" class="nav__link nav__link_font">контакты</a>
+							</li>
+						</ul>
 					</nav>
 				</div>
 				<p class="footer__description">студия дизайна интерьера Метрика — 2023</p>

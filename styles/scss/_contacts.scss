@@ -1,15 +1,12 @@
-.contacts-section {
-}
-
 .contacts {
 	&__content {
 		margin-top: 74px;
-		display: flex;
-		flex-wrap: wrap;
-		column-gap: 104px;
 	}
 
-	&__item {
+	&__list {
+		display: flex;
+		justify-content: space-between;
+		width: calc(100% - 135px);
 	}
 
 	&__tel {
@@ -70,9 +67,19 @@
 }
 
 @media (max-width: 767px) {
-	.contacts__content {
+	.contacts__list {
 		flex-direction: column;
 		row-gap: 70px;
 		margin-top: 74px;
+	}
+	.contcats__link {
+		width: 276px;
+	}
+
+	.contacts__tel,
+	.contacts__telegram {
+		font-size: 35px;
+		line-height: 45.621px;
+		letter-spacing: -1.05px;
 	}
 }

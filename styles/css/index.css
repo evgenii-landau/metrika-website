@@ -18,6 +18,9 @@
   justify-content: space-between;
   width: 450px;
 }
+.nav__header {
+  display: contents;
+}
 .nav__link {
   font-size: 18px;
   letter-spacing: -0.54px;
@@ -101,21 +104,6 @@
   letter-spacing: -1.35px;
   line-height: normal;
 }
-.about__button {
-  margin-top: 30px;
-  display: inline-flex;
-}
-
-.about-btn {
-  padding: 20px 40px;
-  font-size: 20px;
-  letter-spacing: -0.6px;
-  line-height: 27.32px;
-  border-radius: 5px;
-  text-decoration: none;
-  background-color: #ad1818;
-  color: #ffffff;
-}
 
 @media (max-width: 1199px) {
   .about__description {
@@ -129,14 +117,6 @@
     width: 100%;
     font-size: 22px;
     letter-spacing: -0.66px;
-  }
-  .about-btn {
-    width: 100%;
-    padding: 15px 30px;
-    justify-content: center;
-    font-size: 16px;
-    line-height: normal;
-    letter-spacing: -0.48px;
   }
 }
 .projects-item__description {
@@ -200,17 +180,6 @@
   background-color: #121212;
   color: #fff;
 }
-.services__price {
-  position: absolute;
-  top: 30px;
-  left: 30px;
-  padding: 5px 21px;
-  font-size: 22px;
-  line-height: normal;
-  letter-spacing: -0.66px;
-  border-radius: 5px;
-  background: #ad1818;
-}
 .services__title {
   color: #fff;
 }
@@ -232,6 +201,17 @@
 .services__description {
   margin-top: 25px;
   color: #ffffff;
+}
+.services__price {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  padding: 5px 21px;
+  font-size: 22px;
+  line-height: normal;
+  letter-spacing: -0.66px;
+  border-radius: 5px;
+  background: #ad1818;
 }
 
 @media (max-width: 1199px) {
@@ -259,13 +239,13 @@
   .services {
     padding: 80px 0;
   }
+  .services__item {
+    width: 100%;
+  }
   .services__columns {
     flex-direction: column;
     row-gap: 50px;
     margin-bottom: 60px;
-  }
-  .services__item {
-    width: 100%;
   }
   .services__description {
     margin-top: 10px;
@@ -281,57 +261,13 @@
     letter-spacing: -0.42px;
   }
 }
-.room__img {
-  height: 717px;
-  position: relative;
-  background-image: url(../../resources/bed.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 20%;
-}
-.room__description {
-  width: 443px;
-  position: absolute;
-  bottom: 60px;
-  font-size: 30px;
-  letter-spacing: -0.9px;
-  line-height: 41px;
-  color: #ffffff;
-}
-
-@media (max-width: 1199px) {
-  .room__img {
-    height: 536px;
-  }
-  .room__description {
-    width: 375px;
-    left: 50px;
-    bottom: 80px;
-    font-size: 25px;
-    line-height: normal;
-    letter-spacing: -0.75px;
-  }
-}
-@media (max-width: 767px) {
-  .room__img {
-    height: 408px;
-    background-position: 50%;
-  }
-  .room__description {
-    left: 13px;
-    bottom: 60px;
-    width: 285px;
-    font-size: 19.009px;
-    line-height: normal;
-    letter-spacing: -0.57px;
-  }
-}
 .contacts__content {
   margin-top: 74px;
+}
+.contacts__list {
   display: flex;
-  flex-wrap: wrap;
-  -moz-column-gap: 104px;
-       column-gap: 104px;
+  justify-content: space-between;
+  width: calc(100% - 135px);
 }
 .contacts__tel {
   position: relative;
@@ -386,21 +322,21 @@
   }
 }
 @media (max-width: 767px) {
-  .contacts__content {
+  .contacts__list {
     flex-direction: column;
     row-gap: 70px;
     margin-top: 74px;
   }
+  .contcats__link {
+    width: 276px;
+  }
+  .contacts__tel,
+  .contacts__telegram {
+    font-size: 35px;
+    line-height: 45.621px;
+    letter-spacing: -1.05px;
+  }
 }
-.nav-wrapper-footer {
-  display: flex;
-  justify-content: center;
-}
-
-.btn {
-  color: #ffffff;
-}
-
 .footer {
   padding-top: 60px;
   padding-bottom: 30px;
@@ -416,6 +352,18 @@
   color: #ffffff;
 }
 
+.nav-wrapper-footer {
+  display: flex;
+  justify-content: center;
+}
+
+.nav__footer {
+  display: contents;
+}
+.nav__link_font {
+  color: #ffffff;
+}
+
 @media (max-width: 767px) {
   .footer__description {
     margin-top: 41px;
@@ -426,6 +374,10 @@
   .footer {
     padding-top: 30px;
     padding-bottom: 26px;
+  }
+  .nav__link_font {
+    font-size: 12px;
+    letter-spacing: -0.36px;
   }
 }
 h1 {
@@ -552,10 +504,6 @@ h3 {
     width: 100%;
   }
 }
-.gallery-section {
-  color: #fff;
-}
-
 .gallery {
   position: relative;
   width: 100%;
@@ -569,6 +517,7 @@ h3 {
   line-height: normal;
   letter-spacing: -0.66px;
   text-transform: uppercase;
+  color: #fff;
 }
 .gallery__controls {
   position: absolute;
@@ -667,6 +616,19 @@ h3 {
     height: 408px;
   }
 }
+.about__button {
+  margin-top: 30px;
+  display: inline-flex;
+  padding: 20px 40px;
+  font-size: 20px;
+  letter-spacing: -0.6px;
+  line-height: 27.32px;
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: #ad1818;
+  color: #ffffff;
+}
+
 .full-width-button {
   display: flex;
   justify-content: center;
@@ -713,6 +675,14 @@ h3 {
     line-height: normal;
     letter-spacing: -0.66px;
   }
+  .about__button {
+    width: 100%;
+    padding: 15px 30px;
+    justify-content: center;
+    font-size: 16px;
+    line-height: normal;
+    letter-spacing: -0.48px;
+  }
 }
 .popup {
   display: flex;
@@ -730,6 +700,7 @@ h3 {
   transition: all 0.3s ease;
 }
 .popup__content {
+  position: relative;
   width: 777px;
   height: 708px;
   max-height: 100%;
@@ -738,12 +709,15 @@ h3 {
   border-radius: 10px;
 }
 .popup__close-btn {
-  background-image: url(../../resources/projects/popup-close.png);
-  margin: 30px 34px 0 670px;
+  position: absolute;
+  top: 32px;
+  right: 44px;
   max-width: 67px;
   width: 50px;
   height: 50px;
   border: none;
+  background-image: url(../../resources/projects/popup-close.png);
+  background-size: cover;
 }
 
 .popup_open {
@@ -755,8 +729,20 @@ h3 {
   overflow: hidden;
 }
 
+@media (max-width: 767px) {
+  .popup__content {
+    width: 100%;
+    height: 611px;
+  }
+  .js-popup__close-btn {
+    width: 30px;
+    height: 30px;
+    top: 40px;
+    right: 29px;
+  }
+}
 .order__content-wrapper {
-  padding: 7px 74px 83px 55px;
+  padding: 94px 74px 86px 59px;
 }
 .order__title {
   margin-bottom: 5px;
@@ -778,6 +764,16 @@ h3 {
   margin-top: 55px;
 }
 
+@media (max-width: 767px) {
+  .order__title {
+    font-size: 25px;
+    letter-spacing: -0.75px;
+  }
+  .order__subtitle {
+    font-size: 14px;
+    letter-spacing: -0.42px;
+  }
+}
 .input {
   display: block;
   padding-bottom: 5px;
@@ -800,6 +796,12 @@ h3 {
   opacity: 0.5;
 }
 
+@media (max-width: 767px) {
+  .input {
+    font-size: 18px;
+    letter-spacing: -0.54px;
+  }
+}
 .burger {
   position: fixed;
   top: 0;
@@ -812,6 +814,19 @@ h3 {
   background-color: rgba(0, 0, 0, 0.4);
   opacity: 0;
   visibility: hidden;
+}
+.burger__content {
+  position: relative;
+  padding: 80px 88px 65px 30px;
+  width: 274px;
+  height: 100%;
+  overflow-y: auto;
+  background-color: #fff;
+  transition: transform 0.3s linear;
+  transform: translateX(100%);
+}
+.burger__logo {
+  margin-bottom: 50px;
 }
 .burger__feedback-title {
   font-size: 16px;
@@ -830,30 +845,11 @@ h3 {
 }
 .burger__btn {
   display: none;
+  z-index: 2;
 }
 
-.burger_open {
-  z-index: 1;
-  opacity: 1;
-  visibility: visible;
-}
-
-.burger__content {
-  position: relative;
-  padding: 80px 88px 65px 30px;
-  width: 30%;
-  height: 100%;
-  background-color: #fff;
-  transition: transform 0.3s linear;
-  transform: translateX(100%);
-}
-
-.body_fixed {
-  overflow: hidden;
-}
-
-.logo-burger {
-  margin-bottom: 50px;
+.burger_open .burger__content {
+  transform: translateX(0);
 }
 
 .nav__burger {
@@ -868,6 +864,16 @@ h3 {
   letter-spacing: -0.75px;
 }
 
+.burger_open {
+  z-index: 1;
+  opacity: 1;
+  visibility: visible;
+}
+
+.body_fixed {
+  overflow: hidden;
+}
+
 @media (max-width: 1199px) {
   .burger__btn {
     display: block;
@@ -875,14 +881,6 @@ h3 {
     position: relative;
     background: none;
     border: none;
-  }
-  .burger-btn_open {
-    content: "";
-    width: 34px;
-    height: 34px;
-    z-index: 2;
-    background-image: url(../../resources/projects/popup-close.png);
-    background-size: cover;
   }
   .burger__btn::before,
   .burger__btn::after {
@@ -894,9 +892,23 @@ h3 {
     width: 100%;
     background-color: black;
   }
+  .burger-btn_open::after,
+  .burger-btn_open::before {
+    display: none;
+  }
   .burger__btn::after {
     top: 6px;
     width: 31px;
+  }
+  .burger-btn_open {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    height: 34px;
+    width: 34px;
+    background-image: url(../../resources/burger/burger-close.png);
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 }
 html {

@@ -18,6 +18,10 @@
 	justify-content: space-between;
 	width: 450px;
 
+	&__header {
+		display: contents;
+	}
+
 	&__link {
 		font-size: 18px;
 		letter-spacing: -0.54px;

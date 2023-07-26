@@ -1,12 +1,3 @@
-.nav-wrapper-footer {
-	display: flex;
-	justify-content: center;
-}
-
-.btn {
-	color: #ffffff;
-}
-
 .footer {
 	padding-top: 60px;
 	padding-bottom: 30px;
@@ -24,6 +15,23 @@
 	}
 }
 
+.nav-wrapper-footer {
+	display: flex;
+	justify-content: center;
+}
+
+.nav {
+	&__footer {
+		display: contents;
+	}
+
+	&__link {
+		&_font {
+			color: #ffffff;
+		}
+	}
+}
+
 @media (max-width: 767px) {
 	.footer__description {
 		margin-top: 41px;
@@ -35,5 +43,10 @@
 	.footer {
 		padding-top: 30px;
 		padding-bottom: 26px;
+	}
+
+	.nav__link_font {
+		font-size: 12px;
+		letter-spacing: -0.36px;
 	}
 }

@@ -1,6 +1,3 @@
-.gallery-section {
-	color: #fff;
-}
 .gallery {
 	position: relative;
 	width: 100%;
@@ -14,6 +11,7 @@
 		line-height: normal;
 		letter-spacing: -0.66px;
 		text-transform: uppercase;
+		color: #fff;
 	}
 
 	&__controls {
