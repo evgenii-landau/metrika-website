@@ -9,15 +9,7 @@
 		width: calc(100% - 135px);
 	}
 
-	&__tel {
-		position: relative;
-		font-size: 60px;
-		letter-spacing: -0.9px;
-
-		text-decoration: none;
-		color: #121212;
-	}
-
+	&__tel,
 	&__telegram {
 		position: relative;
 		font-size: 60px;
@@ -62,6 +54,7 @@
 	.contacts__tel,
 	.contacts__telegram {
 		font-size: 45px;
+		line-height: 60px;
 		letter-spacing: -1.35px;
 	}
 }
