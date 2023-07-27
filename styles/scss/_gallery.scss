@@ -1,7 +1,9 @@
 .gallery {
-	position: relative;
-	width: 100%;
-	height: 717px;
+	&__wrapper {
+		position: relative;
+		width: 100%;
+		height: 717px;
+	}
 
 	&__title {
 		position: absolute;

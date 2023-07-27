@@ -9,7 +9,7 @@ h1 {
 	color: #121212;
 }
 
-h2 {
+.title {
 	margin-bottom: 30px;
 	font-size: 18px;
 	letter-spacing: -0.54px;
@@ -17,6 +17,10 @@ h2 {
 	line-height: 24.59px;
 
 	color: #121212;
+}
+
+.title_color {
+	color: #fff;
 }
 
 h3 {
@@ -49,7 +53,7 @@ h3 {
 		letter-spacing: -0.9px;
 	}
 
-	h2 {
+	.title {
 		margin-bottom: 20px;
 		font-size: 14px;
 		line-height: normal;
