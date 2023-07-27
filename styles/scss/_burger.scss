@@ -12,7 +12,6 @@
 	visibility: hidden;
 
 	&__content {
-		position: relative;
 		padding: 80px 88px 65px 30px;
 		width: 274px;
 		height: 100%;
@@ -122,10 +121,5 @@
 		background-image: url(../../resources/burger/burger-close.png);
 		background-size: cover;
 		background-repeat: no-repeat;
-	}
-}
-
-@media (max-width: 767px) {
-	.popup__close-btn {
 	}
 }
