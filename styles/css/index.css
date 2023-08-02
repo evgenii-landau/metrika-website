@@ -441,6 +441,10 @@ h3 {
 .reviews__item {
   width: 530px;
 }
+.reviews__item:last-child {
+  max-width: 861px;
+  flex-grow: 1;
+}
 .reviews__client {
   margin-bottom: 14px;
   font-size: 45px;
@@ -453,9 +457,6 @@ h3 {
   line-height: 30.05px;
   letter-spacing: -0.66px;
   color: #000;
-}
-.reviews__description_size {
-  width: 861px;
 }
 
 @media (max-width: 1199px) {
@@ -480,9 +481,6 @@ h3 {
     line-height: 27.32px;
     letter-spacing: -0.6px;
   }
-  .reviews__description_size {
-    width: 694px;
-  }
 }
 @media (max-width: 767px) {
   .reviews {
@@ -503,9 +501,6 @@ h3 {
     font-size: 16px;
     line-height: 21.86px;
     letter-spacing: -0.48px;
-  }
-  .reviews__description_size {
-    width: 100%;
   }
 }
 .gallery__wrapper {
