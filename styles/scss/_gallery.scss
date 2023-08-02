@@ -83,6 +83,10 @@
 }
 
 @media (max-width: 1199px) {
+	.gallery__wrapper {
+		height: 536px;
+	}
+
 	.gallery__title {
 		top: 80px;
 		font-size: 20px;
@@ -99,13 +103,13 @@
 	.gallery__controls {
 		top: 344px;
 	}
-
-	.gallery {
-		height: 536px;
-	}
 }
 
 @media (max-width: 767px) {
+	.gallery__wrapper {
+		height: 408px;
+	}
+
 	.gallery__title {
 		top: 61px;
 		font-size: 14px;
@@ -124,9 +128,5 @@
 		top: 189px;
 		width: calc(100% - 25px);
 		justify-content: space-between;
-	}
-
-	.gallery {
-		height: 408px;
 	}
 }
